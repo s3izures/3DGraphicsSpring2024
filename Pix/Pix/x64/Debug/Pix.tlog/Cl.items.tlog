@@ -1,0 +1,13 @@
+D:\N\VGP240\Pix\Pix\CmdDrawPixel.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+D:\N\VGP240\Pix\Pix\CmdSetColor.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
+D:\N\VGP240\Pix\Pix\CmdSetResolution.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
+D:\N\VGP240\Pix\Pix\CmdVarFloat.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
+D:\N\VGP240\Pix\Pix\CommandDictionary.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
+D:\N\VGP240\Pix\Pix\Graphics.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\Graphics.obj
+D:\N\VGP240\Pix\Pix\PixEditor.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\PixEditor.obj
+D:\N\VGP240\Pix\Pix\Rasterizer.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\Rasterizer.obj
+D:\N\VGP240\Pix\Pix\ScriptParser.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\ScriptParser.obj
+D:\N\VGP240\Pix\Pix\TextEditor.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\TextEditor.obj
+D:\N\VGP240\Pix\Pix\VariableCache.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\VariableCache.obj
+D:\N\VGP240\Pix\Pix\Viewport.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\Viewport.obj
+D:\N\VGP240\Pix\Pix\WinMain.cpp;D:\N\VGP240\Pix\Pix\x64\Debug\WinMain.obj
