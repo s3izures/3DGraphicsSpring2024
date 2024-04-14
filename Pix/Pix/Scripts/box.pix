@@ -1,0 +1,12 @@
+SetResolution(5, 5, 50, false)
+
+DrawPixel(1, 1)
+DrawPixel(1, 2)
+DrawPixel(1, 3)
+
+DrawPixel(2, 1)
+DrawPixel(2, 3)
+
+DrawPixel(3, 1)
+DrawPixel(3, 2)
+DrawPixel(3, 3)
