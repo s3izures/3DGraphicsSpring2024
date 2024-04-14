@@ -1,0 +1,136 @@
+SetResolution(20, 31, 25, false)
+
+
+
+SetColor(1.0, 1.0, 1.0)
+
+DrawRectangle(2, 8, 2, 13)
+DrawPixel(3, 10)
+DrawPixel(3, 14)
+DrawRectangle(13, 16, 14, 16)
+DrawRectangle(10, 19, 11, 20)
+DrawRectangle(5, 27, 7, 27)
+DrawRectangle(7, 28, 8, 28)
+
+
+
+SetColor(0, 0, 0)
+
+DrawPixel(2, 22)
+DrawRectangle(3, 23, 5, 25)
+DrawPixel(6, 25)
+DrawRectangle(4, 26, 7, 26)
+
+
+
+SetColor(0.14, 0.192, 0.592)
+
+DrawRectangle(2, 6, 2, 7)
+DrawRectangle(1, 8, 1, 13)
+DrawPixel(2, 14)
+DrawRectangle(3, 15, 4, 15)
+DrawPixel(3, 16)
+DrawPixel(15, 16)
+DrawRectangle(13, 17, 14, 17)
+DrawRectangle(12, 19, 12, 20)
+DrawRectangle(1, 20, 1, 22)
+DrawRectangle(2, 23, 2, 25)
+DrawPixel(3, 26)
+DrawRectangle(4, 27, 4, 28)
+DrawRectangle(5, 28, 6, 28)
+DrawPixel(7, 29)
+
+
+
+SetColor(0.24, 0.071, 0.055)
+
+DrawRectangle(5, 2, 6, 3)
+DrawPixel(4, 3)
+DrawRectangle(7, 1, 14, 3)
+DrawRectangle(15, 2, 15, 15)
+DrawRectangle(16, 3, 16, 14)
+DrawRectangle(17, 4, 17, 15)
+DrawRectangle(18, 6, 18, 12)
+DrawRectangle(9, 4, 14, 15)
+DrawRectangle(3, 4, 8, 7)
+DrawRectangle(3, 8, 4, 9)
+DrawRectangle(6, 8, 6, 11)
+DrawRectangle(7, 8, 8, 8)
+DrawRectangle(8, 12, 8, 15)
+DrawRectangle(7, 14, 7, 15)
+DrawRectangle(5, 15, 6, 15)
+DrawPixel(4, 14)
+DrawRectangle(3, 11, 3, 13)
+DrawPixel(4, 10)
+DrawRectangle(9, 16, 12, 17)
+DrawPixel(3, 17)
+DrawRectangle(3, 17, 9, 18)
+DrawPixel(11, 18)
+DrawPixel(13, 18)
+DrawRectangle(14, 19, 14, 25)
+DrawRectangle(13, 26, 13, 27)
+DrawRectangle(9, 27, 12, 29)
+DrawPixel(8, 29)
+DrawPixel(11, 21)
+DrawPixel(10, 22)
+DrawRectangle(6, 23, 9, 23)
+DrawRectangle(3, 21, 7, 21)
+DrawRectangle(2, 18, 2, 20)
+DrawRectangle(8, 26, 8, 27)
+DrawPixel(7, 25)
+DrawPixel(6, 24)
+
+
+
+SetColor(1.0 , 0.788, 0.055)
+
+DrawRectangle(7, 9, 8, 11)
+DrawRectangle(5, 8, 5, 10)
+DrawRectangle(4, 11, 5, 11)
+DrawRectangle(4, 12, 7, 13)
+DrawRectangle(5, 14, 6, 14)
+DrawRectangle(10, 16, 11, 16)
+DrawRectangle(3, 19, 4, 20)
+
+
+
+SetColor(1.0 , 0.949, 0.0)
+
+DrawPixel(2, 21)
+DrawPixel(4, 22)
+DrawPixel(7, 22)
+
+
+
+SetColor(0.608, 0.992, 0.443)
+
+DrawRectangle(4, 16, 8, 17)
+DrawPixel(3, 22)
+DrawPixel(5, 22)
+DrawPixel(6, 22)
+DrawRectangle(8, 21, 9, 22)
+DrawPixel(10, 21)
+DrawPixel(9, 20)
+
+
+
+SetColor(0.403, 0.643, 0.878)
+
+DrawPixel(10, 18)
+DrawPixel(12, 18)
+DrawRectangle(8, 19, 8, 20)
+DrawRectangle(5, 19, 7, 20)
+DrawRectangle(13 , 19, 13, 21)
+DrawPixel(12, 21)
+DrawRectangle(10, 23, 13, 23)
+DrawRectangle(7, 24, 13, 24)
+DrawRectangle(8, 25, 13, 25)
+DrawRectangle(9, 26, 12, 26)
+
+
+
+SetColor(0.901, 0.027, 0.973)
+
+DrawPixel(9, 19)
+DrawRectangle(7, 19, 7, 20)
+DrawRectangle(11, 22, 13, 22)
