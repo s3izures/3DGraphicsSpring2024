@@ -1,39 +1,39 @@
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\AlphaTestEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\AlphaTestEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\BasicEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BasicEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\BasicPostProcess.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BasicPostProcess.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\BufferHelpers.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BufferHelpers.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\CommonStates.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\CommonStates.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DDSTextureLoader.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DDSTextureLoader.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DebugEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DebugEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DGSLEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DGSLEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DGSLEffectFactory.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DGSLEffectFactory.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DirectXHelpers.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXHelpers.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DualPostProcess.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DualPostProcess.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\DualTextureEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DualTextureEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\BinaryReader.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BinaryReader.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\EffectCommon.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EffectCommon.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\EffectFactory.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EffectFactory.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\EnvironmentMapEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EnvironmentMapEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\GamePad.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GamePad.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\GeometricPrimitive.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GeometricPrimitive.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\Geometry.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Geometry.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\GraphicsMemory.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GraphicsMemory.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\Keyboard.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Keyboard.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\Model.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Model.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\ModelLoadCMO.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadCMO.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\ModelLoadSDKMESH.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadSDKMESH.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\ModelLoadVBO.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadVBO.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\Mouse.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Mouse.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\NormalMapEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\NormalMapEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\PBREffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PBREffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\PBREffectFactory.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PBREffectFactory.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\pch.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\pch.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\ScreenGrab.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ScreenGrab.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\SimpleMath.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SimpleMath.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\SkinnedEffect.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SkinnedEffect.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\SpriteBatch.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SpriteBatch.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\PrimitiveBatch.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PrimitiveBatch.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\SpriteFont.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SpriteFont.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\ToneMapPostProcess.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ToneMapPostProcess.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\VertexTypes.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\VertexTypes.obj
-D:\N\VGP240\Pix\X\External\DirectXTK\Src\WICTextureLoader.cpp;D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\WICTextureLoader.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\AlphaTestEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\AlphaTestEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\BasicEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BasicEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\BasicPostProcess.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BasicPostProcess.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\BufferHelpers.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BufferHelpers.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\CommonStates.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\CommonStates.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DDSTextureLoader.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DDSTextureLoader.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DebugEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DebugEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DGSLEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DGSLEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DGSLEffectFactory.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DGSLEffectFactory.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DirectXHelpers.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXHelpers.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DualPostProcess.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DualPostProcess.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\DualTextureEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DualTextureEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\BinaryReader.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\BinaryReader.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\EffectCommon.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EffectCommon.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\EffectFactory.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EffectFactory.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\EnvironmentMapEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\EnvironmentMapEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\GamePad.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GamePad.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\GeometricPrimitive.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GeometricPrimitive.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\Geometry.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Geometry.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\GraphicsMemory.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\GraphicsMemory.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\Keyboard.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Keyboard.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\Model.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Model.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\ModelLoadCMO.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadCMO.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\ModelLoadSDKMESH.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadSDKMESH.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\ModelLoadVBO.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ModelLoadVBO.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\Mouse.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\Mouse.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\NormalMapEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\NormalMapEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\PBREffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PBREffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\PBREffectFactory.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PBREffectFactory.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\pch.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\pch.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\ScreenGrab.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ScreenGrab.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\SimpleMath.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SimpleMath.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\SkinnedEffect.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SkinnedEffect.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\SpriteBatch.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SpriteBatch.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\PrimitiveBatch.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\PrimitiveBatch.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\SpriteFont.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\SpriteFont.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\ToneMapPostProcess.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\ToneMapPostProcess.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\VertexTypes.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\VertexTypes.obj
+D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Src\WICTextureLoader.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\WICTextureLoader.obj

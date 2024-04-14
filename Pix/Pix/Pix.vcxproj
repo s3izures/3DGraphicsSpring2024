@@ -171,6 +171,7 @@
     <None Include="xconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CmdDrawRectangle.cpp" />
     <ClCompile Include="CmdDrawPixel.cpp" />
     <ClCompile Include="CmdSetColor.cpp" />
     <ClCompile Include="CmdSetResolution.cpp" />
@@ -192,6 +193,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CmdDrawRectangle.h" />
     <ClInclude Include="CmdDrawPixel.h" />
     <ClInclude Include="CmdSetColor.h" />
     <ClInclude Include="CmdSetResolution.h" />

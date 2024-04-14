@@ -105,6 +105,9 @@
     <ClCompile Include="MathHelper.cpp">
       <Filter>Math</Filter>
     </ClCompile>
+    <ClCompile Include="CmdDrawRectangle.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -154,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="MathHelper.h">
       <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDrawRectangle.h">
+      <Filter>Commands</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
