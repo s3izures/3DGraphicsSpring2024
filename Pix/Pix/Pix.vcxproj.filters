@@ -3,64 +3,16 @@
   <ItemGroup>
     <None Include="imgui.ini" />
     <None Include="xconfig.json" />
-    <None Include="Scripts\3d_cubes.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_lighting.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_pipeline.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_triangles.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\clipping.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\clipping2.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\fillmode.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\guile.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\lines.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\lines2.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\quad.pix">
-      <Filter>Scripts</Filter>
-    </None>
     <None Include="Scripts\test.pix">
       <Filter>Scripts</Filter>
     </None>
-    <None Include="Scripts\triangles.pix">
+    <None Include="Scripts\box.pix">
       <Filter>Scripts</Filter>
     </None>
-    <None Include="Scripts\triangles2.pix">
+    <None Include="Scripts\iconicSprite.pix">
       <Filter>Scripts</Filter>
     </None>
-    <None Include="Scripts\3d_point_light.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_directional_light.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_spot_light.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\quad2.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_texturing_cube.pix">
-      <Filter>Scripts</Filter>
-    </None>
-    <None Include="Scripts\3d_texturing_perspective.pix">
+    <None Include="Scripts\triangle.pix">
       <Filter>Scripts</Filter>
     </None>
   </ItemGroup>
