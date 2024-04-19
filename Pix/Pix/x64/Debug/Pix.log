@@ -1,1 +1,7 @@
-﻿  Pix.vcxproj -> D:\School\Spring 2024\3D Graphics\Pix\x64\Debug\Pix.exe
+﻿  MathHelper.cpp
+  PrimitiveManager.cpp
+D:\N\3DGraphics\Pix\Pix\MathHelper.cpp(19,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphics\Pix\Pix\MathHelper.cpp(24,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+     Creating library D:\N\3DGraphics\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphics\Pix\x64\Debug\Pix.exp
+  Pix.vcxproj -> D:\N\3DGraphics\Pix\x64\Debug\Pix.exe

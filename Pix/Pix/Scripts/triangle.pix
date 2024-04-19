@@ -1,7 +1,10 @@
 SetResolution(11, 10, 25, false)
 
+SetColor(1,1,1)
+
 DrawPixel(5, 1)
 DrawRectangle(4, 2, 6, 2)
 DrawRectangle(3, 3, 7, 3)
 DrawRectangle(2, 4, 8, 4)
 DrawRectangle(1, 5, 9, 5)
+

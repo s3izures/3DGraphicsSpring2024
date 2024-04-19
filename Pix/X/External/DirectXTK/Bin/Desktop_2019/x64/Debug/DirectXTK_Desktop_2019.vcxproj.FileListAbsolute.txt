@@ -3,3 +3,4 @@ D:\PeterStuff\X\Main\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.p
 D:\N\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 D:\N\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 D:\School\Spring 2024\3D Graphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+D:\N\3DGraphics\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

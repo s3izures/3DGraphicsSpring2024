@@ -60,6 +60,9 @@
     <ClCompile Include="CmdDrawRectangle.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
+    <ClCompile Include="PrimitiveManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -112,6 +115,12 @@
     </ClInclude>
     <ClInclude Include="CmdDrawRectangle.h">
       <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveManager.h">
+      <Filter>Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

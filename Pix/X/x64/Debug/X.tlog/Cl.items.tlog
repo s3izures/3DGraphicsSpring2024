@@ -1,22 +1,22 @@
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\AudioSystem.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\AudioSystem.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Camera.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Camera.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Config.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Config.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\ConstantBuffer.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\ConstantBuffer.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Font.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Font.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\GraphicsSystem.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\GraphicsSystem.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Gui.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Gui.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\InputSystem.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\InputSystem.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\PixelShader.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\PixelShader.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Precompiled.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Precompiled.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\RenderTarget.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\RenderTarget.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\SimpleDraw.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\SimpleDraw.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\SoundEffectManager.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\SoundEffectManager.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\SpriteRenderer.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\SpriteRenderer.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Texture.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Texture.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\TextureManager.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\TextureManager.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Timer.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Timer.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\Vertex.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\Vertex.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\VertexShader.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\VertexShader.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\VertexUtil.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\VertexUtil.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\XEngine.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\XEngine.obj
-D:\School\Spring 2024\3D Graphics\Pix\X\Src\XMath.cpp;D:\School\Spring 2024\3D Graphics\Pix\X\x64\Debug\XMath.obj
+D:\N\3DGraphics\Pix\X\Src\AudioSystem.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\AudioSystem.obj
+D:\N\3DGraphics\Pix\X\Src\Camera.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Camera.obj
+D:\N\3DGraphics\Pix\X\Src\Config.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Config.obj
+D:\N\3DGraphics\Pix\X\Src\ConstantBuffer.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\ConstantBuffer.obj
+D:\N\3DGraphics\Pix\X\Src\Font.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Font.obj
+D:\N\3DGraphics\Pix\X\Src\GraphicsSystem.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\GraphicsSystem.obj
+D:\N\3DGraphics\Pix\X\Src\Gui.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Gui.obj
+D:\N\3DGraphics\Pix\X\Src\InputSystem.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\InputSystem.obj
+D:\N\3DGraphics\Pix\X\Src\PixelShader.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\PixelShader.obj
+D:\N\3DGraphics\Pix\X\Src\Precompiled.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Precompiled.obj
+D:\N\3DGraphics\Pix\X\Src\RenderTarget.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\RenderTarget.obj
+D:\N\3DGraphics\Pix\X\Src\SimpleDraw.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\SimpleDraw.obj
+D:\N\3DGraphics\Pix\X\Src\SoundEffectManager.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\SoundEffectManager.obj
+D:\N\3DGraphics\Pix\X\Src\SpriteRenderer.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\SpriteRenderer.obj
+D:\N\3DGraphics\Pix\X\Src\Texture.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Texture.obj
+D:\N\3DGraphics\Pix\X\Src\TextureManager.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\TextureManager.obj
+D:\N\3DGraphics\Pix\X\Src\Timer.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Timer.obj
+D:\N\3DGraphics\Pix\X\Src\Vertex.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\Vertex.obj
+D:\N\3DGraphics\Pix\X\Src\VertexShader.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\VertexShader.obj
+D:\N\3DGraphics\Pix\X\Src\VertexUtil.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\VertexUtil.obj
+D:\N\3DGraphics\Pix\X\Src\XEngine.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\XEngine.obj
+D:\N\3DGraphics\Pix\X\Src\XMath.cpp;D:\N\3DGraphics\Pix\X\x64\Debug\XMath.obj
