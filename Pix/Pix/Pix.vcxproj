@@ -155,11 +155,15 @@
     <None Include="xconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CmdBeginDraw.cpp" />
     <ClCompile Include="CmdDrawRectangle.cpp" />
     <ClCompile Include="CmdDrawPixel.cpp" />
+    <ClCompile Include="CmdEndDraw.cpp" />
     <ClCompile Include="CmdSetColor.cpp" />
+    <ClCompile Include="CmdSetFillMode.cpp" />
     <ClCompile Include="CmdSetResolution.cpp" />
     <ClCompile Include="CmdVarFloat.cpp" />
+    <ClCompile Include="CmdAddVertex.cpp" />
     <ClCompile Include="CommandDictionary.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="MathHelper.cpp" />
@@ -178,11 +182,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CmdBeginDraw.h" />
     <ClInclude Include="CmdDrawRectangle.h" />
     <ClInclude Include="CmdDrawPixel.h" />
+    <ClInclude Include="CmdEndDraw.h" />
     <ClInclude Include="CmdSetColor.h" />
+    <ClInclude Include="CmdSetFillMode.h" />
     <ClInclude Include="CmdSetResolution.h" />
     <ClInclude Include="CmdVarFloat.h" />
+    <ClInclude Include="CmdAddVertex.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommandDictionary.h" />
     <ClInclude Include="Graphics.h" />
