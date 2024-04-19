@@ -65,5 +65,6 @@ bool PrimitiveManager::EndDraw()
 		break;
 	}
 
+	mDrawBegin = false;
 	return true;
 }

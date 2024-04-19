@@ -23,7 +23,7 @@ inline static X::Color LerpColor(const X::Color& a, const X::Color& b, const flo
 	col.x = MathHelper::Lerp(a.r, b.r, t);
 	col.y = MathHelper::Lerp(a.g, b.g, t);
 	col.z = MathHelper::Lerp(a.b, b.b, t);
-	col.z = MathHelper::Lerp(a.a, b.a, t);
+	col.a = MathHelper::Lerp(a.a, b.a, t);
 
 	return col;
 }

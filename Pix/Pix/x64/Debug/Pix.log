@@ -1,2 +1,10 @@
-﻿  Rasterizer.cpp
+﻿  CmdAddVertex.cpp
+  CmdBeginDraw.cpp
+  CmdDrawPixel.cpp
+  CmdDrawRectangle.cpp
+  CmdEndDraw.cpp
+  CmdSetColor.cpp
+  PrimitiveManager.cpp
+  Rasterizer.cpp
+  Generating Code...
   Pix.vcxproj -> D:\N\3DGraphics\Pix\x64\Debug\Pix.exe
