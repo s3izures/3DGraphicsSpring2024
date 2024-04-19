@@ -8,6 +8,7 @@
 #include "CmdAddVertex.h"
 #include "CmdBeginDraw.h"
 #include "CmdEndDraw.h"
+#include "CmdSetFillMode.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -32,6 +33,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdBeginDraw>();
 	RegisterCommand<CmdAddVertex>();
 	RegisterCommand<CmdEndDraw>();
+	RegisterCommand<CmdSetFillMode>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()

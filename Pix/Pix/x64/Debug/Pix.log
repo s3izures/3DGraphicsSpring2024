@@ -1,8 +1,5 @@
-﻿  CmdAddVertex.cpp
-  CmdBeginDraw.cpp
-  CmdDrawPixel.cpp
+﻿  CmdDrawPixel.cpp
   CmdDrawRectangle.cpp
-  CmdEndDraw.cpp
   CmdSetColor.cpp
   PrimitiveManager.cpp
   Rasterizer.cpp

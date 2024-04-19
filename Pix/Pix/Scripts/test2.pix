@@ -10,12 +10,20 @@ BeginDraw(Line)
 
 AddVertex(4,4,1,1,0)
 AddVertex(14,2,1,0,1)
-AddVertex(2,17,0,1,1)
-AddVertex(14,2,1,0,1)
-AddVertex(14,2,1,0,1)
+
+EndDraw()
+
+BeginDraw(Triangle)
+
+SetFillMode(Wireframe)
+AddVertex(1,2,1,0,1)
+AddVertex(15,2,1,0,1)
 AddVertex(18,18,0,1,0)
 
 EndDraw()
+
+
+
 
 
 
