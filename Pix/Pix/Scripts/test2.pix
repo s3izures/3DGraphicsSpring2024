@@ -1,26 +1,18 @@
-SetResolution(20,20,20,false)
-
-BeginDraw(Point)
-
-AddVertex(2,2,1,0,0)
-
-EndDraw()
-
-BeginDraw(Line)
-
-AddVertex(4,4,1,1,0)
-AddVertex(14,2,1,0,1)
-
-EndDraw()
+SetResolution(50,50,10,false)
 
 BeginDraw(Triangle)
 
-SetFillMode(Wireframe)
-AddVertex(1,2,1,0,1)
-AddVertex(15,2,1,0,1)
-AddVertex(18,18,0,1,0)
+SetFillMode(Solid)
+AddVertex(0,2,1,0,1)
+AddVertex(49,1,1,1,1)
+AddVertex(49,49,0,1,0)
 
 EndDraw()
+
+
+
+
+
 
 
 

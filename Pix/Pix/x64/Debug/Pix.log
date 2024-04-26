@@ -1,7 +1,2 @@
-﻿  CmdDrawPixel.cpp
-  CmdDrawRectangle.cpp
-  CmdSetColor.cpp
-  PrimitiveManager.cpp
-  Rasterizer.cpp
-  Generating Code...
-  Pix.vcxproj -> D:\N\3DGraphics\Pix\x64\Debug\Pix.exe
+﻿  Rasterizer.cpp
+  Pix.vcxproj -> D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

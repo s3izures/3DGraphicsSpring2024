@@ -15,4 +15,5 @@ public:
 	static float Dot(const Vector3& a, const Vector3& b);
 	static Vector3 Cross(const Vector3& a, const Vector3& b);
 	static float Lerp(float a, float b, float t);
+	static bool CheckEqual(float a, float b);
 };
