@@ -4,7 +4,9 @@
 bool CmdBeginDraw::Execute(const std::vector<std::string>& params)
 {
     if (params.size() < 1)
+    {
         return false;
+    }
 
     Topology topology;
     if (params[0] == "Point")

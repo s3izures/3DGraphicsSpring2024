@@ -16,7 +16,9 @@ void Viewport::OnNewFrame()
 void Viewport::DrawViewport()
 {
 	if (mShowViewport)
+	{
 		X::DrawScreenRect({ mPosX, mPosY, mPosX + mWidth, mPosY + mHeight }, X::Colors::White);
+	}
 }
 
 void Viewport::SetViewport(float x, float y, float width, float height)

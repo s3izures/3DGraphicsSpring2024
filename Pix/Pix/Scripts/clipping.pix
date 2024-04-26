@@ -1,0 +1,20 @@
+SetResolution(50,50,10,true)
+float $x = 4 1
+float $y = 6 1
+SetViewport($x,$y,30,30)
+ShowViewport(true)
+SetClipping(true)
+
+BeginDraw(Line)
+AddVertex(0,0,1,0,0)
+AddVertex(50,50,1,0,0)
+
+EndDraw()
+
+
+
+
+
+
+
+

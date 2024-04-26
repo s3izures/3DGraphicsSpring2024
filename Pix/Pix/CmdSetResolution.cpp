@@ -9,7 +9,9 @@ bool CmdSetResolution::Execute(const std::vector<std::string>& params)
 {
 	// Need at least 2 params for width, height
 	if (params.size() < 2)
+	{
 		return false;
+	}
 
 	const int width = stoi(params[0]);
 	const int height = stoi(params[1]);

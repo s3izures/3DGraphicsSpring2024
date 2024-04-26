@@ -1,14 +1,21 @@
+#pragma region Includes
 #include "CommandDictionary.h"
+
+#include "CmdSetResolution.h"
+#include "CmdSetFillMode.h"
+#include "CmdSetViewport.h"
+#include "CmdShowViewport.h"
+#include "CmdSetClipping.h"
+
+#include "CmdVarFloat.h"
 
 #include "CmdDrawPixel.h"
 #include "CmdDrawRectangle.h"
-#include "CmdSetResolution.h"
-#include "CmdVarFloat.h"
 #include "CmdSetColor.h"
 #include "CmdAddVertex.h"
 #include "CmdBeginDraw.h"
 #include "CmdEndDraw.h"
-#include "CmdSetFillMode.h"
+#pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -22,6 +29,9 @@ CommandDictionary::CommandDictionary()
 
 	// Setting commands
 	RegisterCommand<CmdSetResolution>();
+	RegisterCommand<CmdSetViewport>();
+	RegisterCommand<CmdShowViewport>();
+	RegisterCommand<CmdSetClipping>();
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
