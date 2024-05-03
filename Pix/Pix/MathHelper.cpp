@@ -3,7 +3,7 @@
 
 bool MathHelper::CheckEqual(float a, float b)
 {
-	return fabsf(a - b) < 0.01f;
+	return fabsf(a - b) < 0.1f;
 }
 
 float MathHelper::MagnitudeSquared(const Vector2& v)
