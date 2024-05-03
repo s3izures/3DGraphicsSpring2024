@@ -1,2 +1,18 @@
-﻿  CmdSetFillMode.cpp
+﻿  Clipper.cpp
+  CmdAddVertex.cpp
+  CmdBeginDraw.cpp
+  CmdDrawPixel.cpp
+  CmdDrawRectangle.cpp
+  CmdEndDraw.cpp
+  CmdSetClipping.cpp
+  CmdSetColor.cpp
+  CmdSetFillMode.cpp
+  Graphics.cpp
+  MathHelper.cpp
+  PrimitiveManager.cpp
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(24,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(29,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Rasterizer.cpp
+  Generating Code...
+D:\N\3DGraphicsSpring2024\Pix\Pix\Clipper.cpp(58): warning C4715: 'IsInFront': not all control paths return a value
   Pix.vcxproj -> D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
