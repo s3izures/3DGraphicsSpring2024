@@ -1,5 +1,4 @@
-﻿  FW1Precompiled.cpp
-  CFW1ColorRGBA.cpp
+﻿  CFW1ColorRGBA.cpp
   CFW1ColorRGBAInterface.cpp
   CFW1DWriteRenderTarget.cpp
   CFW1DWriteRenderTargetInterface.cpp

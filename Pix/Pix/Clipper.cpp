@@ -7,6 +7,14 @@ const short BIT_RIGHT   = 1 << 2;   //0010
 const short BIT_BOTTOM  = 1 << 3;   //0100
 const short BIT_TOP     = 1 << 4;   //1000
 
+enum class ClipEdge :short {
+    Left,
+    Top,
+    Right,
+    Bottom,
+    Count
+};
+
 short GetOutputCode(float x, float y)
 {
     Viewport* vp = Viewport::Get();
@@ -30,6 +38,53 @@ short GetOutputCode(float x, float y)
     }
 
     return code;
+}
+
+bool IsInFront(ClipEdge edge, const Vector3& pos)
+{
+    switch (edge)
+    {
+    case ClipEdge::Left:
+        return pos.x > Viewport::Get()->GetMinX();
+    case ClipEdge::Top:
+        return pos.y > Viewport::Get()->GetMinY();
+    case ClipEdge::Right:
+        return pos.x <  Viewport::Get()->GetMaxX();
+    case ClipEdge::Bottom:
+        return pos.y < Viewport::Get()->GetMaxY();
+    default:
+        break;
+    }
+}
+
+Vertex ComputeIntersection(ClipEdge edge, const Vertex& v, const Vertex& vp1)
+{
+    float t = 0.0f;
+    switch (edge)
+    {
+        case ClipEdge::Left:
+        {
+            t = (Viewport::Get()->GetMinX() - v.pos.x) / (vp1.pos.x - v.pos.x);
+        }
+        break;
+        case ClipEdge::Top:
+        {
+            t = (Viewport::Get()->GetMinY() - v.pos.y) / (vp1.pos.y - v.pos.y);
+        }
+        break;
+        case ClipEdge::Right:
+        {
+            t = (Viewport::Get()->GetMaxX() - v.pos.x) / (vp1.pos.x - v.pos.x);
+        }                            
+        break;                       
+        case ClipEdge::Bottom:       
+        {                            
+            t = (Viewport::Get()->GetMaxY() - v.pos.y) / (vp1.pos.y - v.pos.y);
+        }
+        break;
+        default: break;
+    }
+    return LerpVertex(v, vp1, t);
 }
 
 Clipper::Clipper () {}
@@ -136,5 +191,40 @@ bool Clipper::ClipTriangle(std::vector<Vertex>& vertices)
     {
         return false;
     }
-    return true;
+
+    std::vector<Vertex> newVertices;
+    for (int i = 0; i < (int)ClipEdge::Count; ++i)
+    {
+        newVertices.clear();
+        ClipEdge edge = (ClipEdge)i;
+        for (size_t v = 0; v < vertices.size(); ++v)
+        {
+            size_t vp1 = (v + 1) % vertices.size();
+            const Vertex& vertex = vertices[v];
+            const Vertex& vertexP1 = vertices[vp1];
+
+            const bool vIsFront = IsInFront(edge, vertex.pos);
+            const bool vp1IsFront = IsInFront(edge, vertexP1.pos);
+        
+            if (vIsFront && vp1IsFront)
+            {
+                newVertices.push_back(vertexP1);
+            }
+            else if(!vIsFront && !vp1IsFront)
+            {
+                //no saving
+            }
+            else if (vIsFront && !vp1IsFront)
+            {
+                newVertices.push_back(ComputeIntersection(edge, vertex, vertexP1));
+            }
+            else if (!vIsFront && vp1IsFront)
+            {
+                newVertices.push_back(ComputeIntersection(edge, vertex, vertexP1));
+                newVertices.push_back(vertexP1);
+            }
+        }
+        vertices = newVertices;
+    }
+    return newVertices.empty();
 }

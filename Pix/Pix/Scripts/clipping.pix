@@ -1,20 +1,34 @@
-SetResolution(50,50,10,true)
-float $x = 4 1
-float $y = 6 1
-SetViewport($x,$y,30,30)
-ShowViewport(true)
-SetClipping(true)
+SetResolution(50, 50, 10)
 
-BeginDraw(Line)
-AddVertex(0,0,1,0,0)
-AddVertex(50,50,1,0,0)
+SetViewport(10, 10, 30, 30)
+SetClipping(true)
+ShowViewport(true)
+
+BeginDraw(Point)
+AddVertex(10, 10, 1, 0, 0)
+AddVertex(40, 40, 1, 0, 0)
 
 EndDraw()
 
+BeginDraw(Line)
+AddVertex(5, 20, 1, 0, 0)
+AddVertex(23, 25, 0, 0, 1)
 
+AddVertex(15, 5, 1, 1, 0)
+AddVertex(45, 20, 1, 0, 1)
 
+AddVertex(45, 27, 0, 1, 1)
+AddVertex(32, 45, 1, 1, 0)
+EndDraw()
 
+BeginDraw(Triangle)
+SetFillMode(Solid)
+AddVertex(15, 25, 1, 1, 0)
+AddVertex(25, 43, 0, 1, 1)
+AddVertex(5, 43, 1, 0, 1)
 
-
-
+AddVertex(30, 20, 1, 0, 0)
+AddVertex(48, 25, 0, 1, 0)
+AddVertex(35, 33, 0, 0, 1)
+EndDraw()
 
