@@ -3,6 +3,7 @@
 #include "Clipper.h"
 #include "Camera.h"
 #include "MathHelper.h"
+#include "MatrixStack.h"
 
 extern float gResolutionX;
 extern float gResolutionY;
@@ -66,7 +67,7 @@ bool PrimitiveManager::EndDraw()
 
 	if (mApplyTransform)
 	{
-		Matrix4 matWorld = Matrix4::Identity();
+		Matrix4 matWorld = MatrixStack::Get()->GetTransform();
 		Matrix4 matView = Camera::Get()->GetViewMatrix();
 		Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
 		Matrix4 matScreen = GetScreenMatrix();
@@ -76,9 +77,7 @@ bool PrimitiveManager::EndDraw()
 		for (size_t i = 0; i < mVertexBuffer.size(); ++i)
 		{
 			Vector3 finalPos = MathHelper::TransformCoord(mVertexBuffer[i].pos, matFinal);
-			finalPos.x = floor(finalPos.x + 0.5f);
-			finalPos.y = floor(finalPos.y + 0.5f);
-			finalPos.z = floor(finalPos.z + 0.5f);
+			MathHelper::FlattenVector(finalPos);
 			mVertexBuffer[i].pos = finalPos;
 		}
 	}

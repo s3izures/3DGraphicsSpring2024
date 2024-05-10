@@ -4,6 +4,9 @@ D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdBeginDraw.cpp;D:\N\3DG
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdDrawRectangle.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawRectangle.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdDrawPixel.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawPixel.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdEndDraw.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEndDraw.obj
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotation.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotation.obj
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushScaling.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushScaling.obj
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushTranslation.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushTranslation.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraDirection.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFar.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFOV.obj
@@ -20,6 +23,7 @@ D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdAddVertex.cpp;D:\N\3DG
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CommandDictionary.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CommandDictionary.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\Graphics.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Graphics.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MathHelper.obj
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\MatrixStack.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MatrixStack.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\PixEditor.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PixEditor.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\PrimitiveManager.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PrimitiveManager.obj
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp;D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Rasterizer.obj

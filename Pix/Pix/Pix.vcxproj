@@ -161,6 +161,12 @@
     <ClCompile Include="CmdDrawRectangle.cpp" />
     <ClCompile Include="CmdDrawPixel.cpp" />
     <ClCompile Include="CmdEndDraw.cpp" />
+    <ClCompile Include="CmdPopMatrix.cpp" />
+    <ClCompile Include="CmdPushRotationX.cpp" />
+    <ClCompile Include="CmdPushRotationY.cpp" />
+    <ClCompile Include="CmdPushRotationZ.cpp" />
+    <ClCompile Include="CmdPushScaling.cpp" />
+    <ClCompile Include="CmdPushTranslation.cpp" />
     <ClCompile Include="CmdSetCameraDirection.cpp" />
     <ClCompile Include="CmdSetCameraFar.cpp" />
     <ClCompile Include="CmdSetCameraFOV.cpp" />
@@ -177,6 +183,7 @@
     <ClCompile Include="CommandDictionary.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="MatrixStack.cpp" />
     <ClCompile Include="PixEditor.cpp" />
     <ClCompile Include="PrimitiveManager.cpp" />
     <ClCompile Include="Rasterizer.cpp" />
@@ -198,6 +205,12 @@
     <ClInclude Include="CmdDrawRectangle.h" />
     <ClInclude Include="CmdDrawPixel.h" />
     <ClInclude Include="CmdEndDraw.h" />
+    <ClInclude Include="CmdPopMatrix.h" />
+    <ClInclude Include="CmdPushRotationX.h" />
+    <ClInclude Include="CmdPushRotationY.h" />
+    <ClInclude Include="CmdPushRotationZ.h" />
+    <ClInclude Include="CmdPushScaling.h" />
+    <ClInclude Include="CmdPushTranslation.h" />
     <ClInclude Include="CmdSetCameraDirection.h" />
     <ClInclude Include="CmdSetCameraFar.h" />
     <ClInclude Include="CmdSetCameraFOV.h" />
@@ -216,6 +229,7 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="MatrixStack.h" />
     <ClInclude Include="PixEditor.h" />
     <ClInclude Include="PrimitiveManager.h" />
     <ClInclude Include="Rasterizer.h" />

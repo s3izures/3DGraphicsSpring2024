@@ -1,8 +1,9 @@
-﻿  CmdSetCameraDirection.cpp
-  CmdSetCameraFOV.cpp
-D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  CmdSetCameraFar.cpp
-  CmdSetCameraNear.cpp
+﻿  CmdPushRotation.cpp
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotation.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushScaling.cpp
+  CmdPushTranslation.cpp
+  Graphics.cpp
+  MatrixStack.cpp
   Generating Code...
      Creating library D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

@@ -18,6 +18,7 @@ public:
 	static float Lerp(float a, float b, float t);
 	static bool CheckEqual(float a, float b);
 
+	static void FlattenVector(Vector3& v);
 	static Vector3 TransformCoord(const Vector3& v, const Matrix4& m); //w=1
 	static Vector3 TransformNormal(const Vector3& v, const Matrix4& m); //w=0
 	static float Determinant(const Matrix4& m);

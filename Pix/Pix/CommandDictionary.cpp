@@ -21,6 +21,13 @@
 #include "CmdSetCameraNear.h"
 #include "CmdSetCameraFar.h"
 #include "CmdSetCameraFOV.h"
+
+#include "CmdPushTranslation.h"
+#include "CmdPushScaling.h"
+#include "CmdPushRotationX.h"
+#include "CmdPushRotationY.h"
+#include "CmdPushRotationZ.h"
+#include "CmdPopMatrix.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
@@ -41,6 +48,12 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand <CmdPushTranslation>();
+	RegisterCommand <CmdPushScaling>();
+	RegisterCommand <CmdPushRotationX>();
+	RegisterCommand <CmdPushRotationY>();
+	RegisterCommand <CmdPushRotationZ>();
+	RegisterCommand <CmdPopMatrix>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
@@ -51,6 +64,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 
+	// Camera commands
 	RegisterCommand<CmdSetCameraPosition>();
 	RegisterCommand<CmdSetCameraDirection>();
 	RegisterCommand<CmdSetCameraNear>();
