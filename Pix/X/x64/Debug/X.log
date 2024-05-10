@@ -1,4 +1,5 @@
-﻿  AudioSystem.cpp
+﻿  Precompiled.cpp
+  AudioSystem.cpp
   Camera.cpp
   Config.cpp
   ConstantBuffer.cpp
@@ -17,5 +18,9 @@
   Vertex.cpp
   VertexShader.cpp
   VertexUtil.cpp
+  XEngine.cpp
   Generating Code...
-  X.vcxproj -> D:\N\3DGraphicsSpring2024\Pix\x64\Debug\X.lib
+  Compiling...
+  XMath.cpp
+  Generating Code...
+  X.vcxproj -> D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\X.lib

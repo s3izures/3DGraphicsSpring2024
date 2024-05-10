@@ -18,7 +18,7 @@ public:
 	static float Lerp(float a, float b, float t);
 	static bool CheckEqual(float a, float b);
 
-	Vector3 TransformCoord(const Vector3& v, const Matrix4& m); //w=1
+	static Vector3 TransformCoord(const Vector3& v, const Matrix4& m); //w=1
 	Vector3 TransformNormal(const Vector3& v, const Matrix4& m); //w=0
 	float Determinant(const Matrix4& m);
 	Matrix4 Adjoint(const Matrix4& m);

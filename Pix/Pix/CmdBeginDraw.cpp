@@ -26,5 +26,11 @@ bool CmdBeginDraw::Execute(const std::vector<std::string>& params)
         return false;
     }
 
-    return PrimitiveManager::Get()->BeginDraw(topology);
+    bool applyTransform = false;
+    if (params.size() > 1)
+    {
+        applyTransform = params[1] == "true";
+    }
+
+    return PrimitiveManager::Get()->BeginDraw(topology, applyTransform);
 }

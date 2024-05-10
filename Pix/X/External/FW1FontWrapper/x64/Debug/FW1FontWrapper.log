@@ -1,4 +1,5 @@
-﻿  CFW1ColorRGBA.cpp
+﻿  FW1Precompiled.cpp
+  CFW1ColorRGBA.cpp
   CFW1ColorRGBAInterface.cpp
   CFW1DWriteRenderTarget.cpp
   CFW1DWriteRenderTargetInterface.cpp
@@ -25,4 +26,4 @@
   CFW1TextRendererInterface.cpp
   FW1FontWrapper.cpp
   Generating Code...
-  FW1FontWrapper.vcxproj -> D:\N\3DGraphicsSpring2024\Pix\x64\Debug\FW1FontWrapper.lib
+  FW1FontWrapper.vcxproj -> D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\FW1FontWrapper.lib

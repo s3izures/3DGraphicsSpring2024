@@ -15,6 +15,12 @@
 #include "CmdAddVertex.h"
 #include "CmdBeginDraw.h"
 #include "CmdEndDraw.h"
+
+#include "CmdSetCameraPosition.h"
+#include "CmdSetCameraDirection.h"
+#include "CmdSetCameraNear.h"
+#include "CmdSetCameraFar.h"
+#include "CmdSetCameraFOV.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
@@ -44,6 +50,12 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdAddVertex>();
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
+
+	RegisterCommand<CmdSetCameraPosition>();
+	RegisterCommand<CmdSetCameraDirection>();
+	RegisterCommand<CmdSetCameraNear>();
+	RegisterCommand<CmdSetCameraFar>();
+	RegisterCommand<CmdSetCameraFOV>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
