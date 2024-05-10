@@ -1,9 +1,13 @@
-﻿  CmdPushRotation.cpp
-D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotation.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  CmdPushScaling.cpp
-  CmdPushTranslation.cpp
-  Graphics.cpp
+﻿  CmdPopMatrix.cpp
+  CmdPushRotationX.cpp
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushRotationY.cpp
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationY.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushRotationZ.cpp
+D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CommandDictionary.cpp
   MatrixStack.cpp
+  PrimitiveManager.cpp
   Generating Code...
      Creating library D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
