@@ -62,101 +62,102 @@ struct Matrix4
 			(_41 * rhs._14) + (_42 * rhs._24) + (_43 * rhs._34) + (_44 * rhs._44)
 		);
 	}
+
+
+	static Matrix4 Identity()
+	{
+		return Matrix4(1.0f, 0.0f, 0.0f, 0.0f,
+			0.0f, 1.0f, 0.0f, 0.0f,
+			0.0f, 0.0f, 1.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f);
+	}
+
+	static Matrix4 RotationX(float rad)
+	{
+		const float s = sinf(rad);
+		const float c = cosf(rad);
+
+		return Matrix4(
+			1.0f, 0.0f, 0.0f, 0.0f,
+			0.0f, c, s, 0.0f,
+			0.0f, -s, c, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 RotationY(float rad)
+	{
+		const float s = sinf(rad);
+		const float c = cosf(rad);
+
+		return Matrix4(
+			c, 0.0f, -s, 0.0f,
+			0.0f, 1.0f, 0.0f, 0.0f,
+			s, 0.0f, c, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 RotationZ(float rad)
+	{
+		const float s = sinf(rad);
+		const float c = cosf(rad);
+
+		return Matrix4(
+			c, s, 0.0f, 0.0f,
+			-s, c, 0.0f, 0.0f,
+			0.0f, 0.0f, 1.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 Scaling(float s)
+	{
+		return Matrix4(
+			s, 0.0f, 0.0f, 0.0f,
+			0.0f, s, 0.0f, 0.0f,
+			0.0f, 0.0f, s, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 Scaling(const Vector3& s)
+	{
+		return Matrix4(
+			s.x, 0.0f, 0.0f, 0.0f,
+			0.0f, s.y, 0.0f, 0.0f,
+			0.0f, 0.0f, s.z, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 Scaling(float sx, float sy, float sz)
+	{
+		return Matrix4(
+			sx, 0.0f, 0.0f, 0.0f,
+			0.0f, sy, 0.0f, 0.0f,
+			0.0f, 0.0f, sz, 0.0f,
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
+	}
+
+	static Matrix4 Translation(const Vector3& d)
+	{
+		return Matrix4(
+			1.0f, 0.0f, 0.0f, 0.0f,
+			0.0f, 1.0f, 0.0f, 0.0f,
+			0.0f, 0.0f, 1.0f, 0.0f,
+			d.x, d.y, d.z, 1.0f
+		);
+	}
+
+	static Matrix4 Translation(float dx, float dy, float dz)
+	{
+		return Matrix4(
+			1.0f, 0.0f, 0.0f, 0.0f,
+			0.0f, 1.0f, 0.0f, 0.0f,
+			0.0f, 0.0f, 1.0f, 0.0f,
+			dx, dy, dz, 1.0f
+		);
+	}
 };
-
-static Matrix4 Identity()
-{
-	return Matrix4(	1.0f, 0.0f, 0.0f, 0.0f,
-					0.0f, 1.0f, 0.0f, 0.0f,
-					0.0f, 0.0f, 1.0f, 0.0f,
-					0.0f, 0.0f, 0.0f, 1.0f);
-}
-
-static Matrix4 RotationX(float rad)
-{
-	const float s = sinf(rad);
-	const float c = cosf(rad);
-
-	return Matrix4(
-		1.0f, 0.0f, 0.0f, 0.0f,
-		0.0f,  c  ,  s  , 0.0f,
-		0.0f, -s  ,  c  , 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 RotationY(float rad)
-{
-	const float s = sinf(rad);
-	const float c = cosf(rad);
-
-	return Matrix4(
-		 c  , 0.0f, -s  , 0.0f,
-		0.0f, 1.0f, 0.0f, 0.0f,
-		 s  , 0.0f,  c  , 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 RotationZ(float rad)
-{
-	const float s = sinf(rad);
-	const float c = cosf(rad);
-
-	return Matrix4(
-		 c  ,  s  , 0.0f, 0.0f,
-		-s  ,  c  , 0.0f, 0.0f,
-		0.0f, 0.0f, 1.0f, 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 Scaling(float s)
-{
-	return Matrix4(
-		 s  , 0.0f, 0.0f, 0.0f,
-		0.0f,  s  , 0.0f, 0.0f,
-		0.0f, 0.0f,  s  , 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 Scaling(const Vector3& s)
-{
-	return Matrix4(
-		s.x , 0.0f, 0.0f, 0.0f,
-		0.0f, s.y , 0.0f, 0.0f,
-		0.0f, 0.0f, s.z , 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 Scaling(float sx, float sy, float sz)
-{
-	return Matrix4(
-		 sx , 0.0f, 0.0f, 0.0f,
-		0.0f,  sy , 0.0f, 0.0f,
-		0.0f, 0.0f,  sz , 0.0f,
-		0.0f, 0.0f, 0.0f, 1.0f
-	);
-}
-
-static Matrix4 Translation(const Vector3& d)
-{
-	return Matrix4(
-		1.0f, 0.0f, 0.0f, 0.0f,
-		0.0f, 1.0f, 0.0f, 0.0f,
-		0.0f, 0.0f, 1.0f, 0.0f,
-		d.x , d.y , d.z , 1.0f
-	);
-}
-
-static Matrix4 Translation(float dx, float dy, float dz)
-{
-	return Matrix4(
-		1.0f, 0.0f, 0.0f, 0.0f,
-		0.0f, 1.0f, 0.0f, 0.0f,
-		0.0f, 0.0f, 1.0f, 0.0f,
-		 dx ,  dy ,  dz , 1.0f
-	);
-}
