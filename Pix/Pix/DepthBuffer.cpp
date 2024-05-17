@@ -31,10 +31,21 @@ void DepthBuffer::SetEnabled(bool enabled)
 	mEnabled = enabled;
 }
 
-bool DepthBuffer::CheckDepthBuffer(int x, int y, int z)
+bool DepthBuffer::CheckDepthBuffer(int x, int y, float depth)
 {
 	if (!mEnabled)
 	{
 		return true;
 	}
+
+	if (x >= 0 && x <= mWidth && y >= 0 && y <= mHeight)
+	{
+		const int index = x + (y * mWidth);
+		if (depth <= mDepthBuffer[index])
+		{
+			mDepthBuffer[index] = depth;
+			return true;
+		}
+	}
+	return false;
 }

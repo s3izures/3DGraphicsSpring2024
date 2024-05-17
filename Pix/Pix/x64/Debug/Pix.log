@@ -1,5 +1,9 @@
-﻿  DepthBuffer.cpp
-  MatrixStack.cpp
+﻿  CmdEnableDepth.cpp
+  CmdSetResolution.cpp
+  DepthBuffer.cpp
+  Graphics.cpp
+  Rasterizer.cpp
+D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(27,56): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(27,48): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
   Generating Code...
-D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\DepthBuffer.cpp(40): warning C4715: 'DepthBuffer::CheckDepthBuffer': not all control paths return a value
   Pix.vcxproj -> D:\N\TTTT\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

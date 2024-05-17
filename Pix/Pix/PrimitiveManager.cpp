@@ -148,7 +148,8 @@ bool PrimitiveManager::EndDraw()
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
 					Vector3 screenPos = MathHelper::TransformCoord(triangle[t].pos, matScreen);
-					MathHelper::FlattenVector(screenPos);
+					screenPos.x = floor(screenPos.x + 0.5f);
+					screenPos.y = floor(screenPos.y + 0.5f);
 					triangle[t].pos = screenPos;
 				}
 			}

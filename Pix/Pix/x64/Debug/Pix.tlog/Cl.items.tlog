@@ -3,6 +3,7 @@ D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\Clipper.cpp;D:\N\TTTT\3DGraphicsSpring202
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdBeginDraw.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdDrawRectangle.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawRectangle.obj
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdDrawPixel.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdEnableDepth.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEnableDepth.obj
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdEndDraw.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEndDraw.obj
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdPopMatrix.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPopMatrix.obj
 D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp;D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationX.obj

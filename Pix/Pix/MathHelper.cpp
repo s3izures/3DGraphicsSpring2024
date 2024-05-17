@@ -75,7 +75,7 @@ void MathHelper::FlattenVector(Vector3& v)
 Vector3 MathHelper::TransformCoord(const Vector3& v, const Matrix4& m)
 {
 	const float w = (v.x * m._14) + (v.y * m._24) + (v.z * m._34) + (1.0f * m._44);
-	const float invW = CheckEqual(w, 0.0f) ? 1.0f : 2.0f / w;
+	const float invW = CheckEqual(w, 0.0f) ? 1.0f : 1.0f / w;
 
 	return {
 		((v.x * m._11) + (v.y * m._21) + (v.z*m._31) + (1.0f*m._41)) * invW,

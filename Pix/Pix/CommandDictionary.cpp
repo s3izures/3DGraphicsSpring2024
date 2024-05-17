@@ -28,6 +28,7 @@
 #include "CmdPushRotationY.h"
 #include "CmdPushRotationZ.h"
 #include "CmdPopMatrix.h"
+#include "CmdEnableDepth.h"
 
 #include "CmdSetCullMode.h"
 #pragma endregion
@@ -66,6 +67,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetCullMode>();
+	RegisterCommand<CmdEnableDepth>();
 
 	// Camera commands
 	RegisterCommand<CmdSetCameraPosition>();

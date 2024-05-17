@@ -5,6 +5,7 @@
 #include "Camera.h"
 #include "MatrixStack.h"
 #include "PrimitiveManager.h"
+#include "DepthBuffer.h"
 
 void Graphics::NewFrame()
 {
@@ -13,4 +14,5 @@ void Graphics::NewFrame()
 	Camera::Get()->OnNewFrame();
 	MatrixStack::Get()->OnNewFrame();
 	PrimitiveManager::Get()->OnNewFrame();
+	DepthBuffer::Get()->OnNewFrame();
 }
