@@ -1,1 +1,5 @@
-﻿  Pix.vcxproj -> D:\N\TTTT\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
+﻿  DepthBuffer.cpp
+  MatrixStack.cpp
+  Generating Code...
+D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\DepthBuffer.cpp(40): warning C4715: 'DepthBuffer::CheckDepthBuffer': not all control paths return a value
+  Pix.vcxproj -> D:\N\TTTT\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

@@ -175,6 +175,7 @@
     <ClCompile Include="CmdSetCameraPosition.cpp" />
     <ClCompile Include="CmdSetClipping.cpp" />
     <ClCompile Include="CmdSetColor.cpp" />
+    <ClCompile Include="CmdSetCullMode.cpp" />
     <ClCompile Include="CmdSetFillMode.cpp" />
     <ClCompile Include="CmdSetResolution.cpp" />
     <ClCompile Include="CmdSetViewport.cpp" />
@@ -182,6 +183,7 @@
     <ClCompile Include="CmdVarFloat.cpp" />
     <ClCompile Include="CmdAddVertex.cpp" />
     <ClCompile Include="CommandDictionary.cpp" />
+    <ClCompile Include="DepthBuffer.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="MathHelper.cpp" />
     <ClCompile Include="MatrixStack.cpp" />
@@ -219,6 +221,7 @@
     <ClInclude Include="CmdSetCameraPosition.h" />
     <ClInclude Include="CmdSetClipping.h" />
     <ClInclude Include="CmdSetColor.h" />
+    <ClInclude Include="CmdSetCullMode.h" />
     <ClInclude Include="CmdSetFillMode.h" />
     <ClInclude Include="CmdSetResolution.h" />
     <ClInclude Include="CmdSetViewport.h" />
@@ -227,6 +230,7 @@
     <ClInclude Include="CmdAddVertex.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommandDictionary.h" />
+    <ClInclude Include="DepthBuffer.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="Matrix4.h" />
