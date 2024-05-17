@@ -1,13 +1,54 @@
-﻿  CmdPopMatrix.cpp
+﻿  Camera.cpp
+D:\N\3DGraphicsSpring2024\Pix\Pix\Camera.cpp(18,9): warning C4305: '=': truncation from 'double' to 'float'
+  Clipper.cpp
+  CmdBeginDraw.cpp
+  CmdDrawRectangle.cpp
+  CmdDrawPixel.cpp
+  CmdEndDraw.cpp
+  CmdPopMatrix.cpp
   CmdPushRotationX.cpp
-D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   CmdPushRotationY.cpp
-D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationY.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationY.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   CmdPushRotationZ.cpp
-D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  CommandDictionary.cpp
-  MatrixStack.cpp
-  PrimitiveManager.cpp
+D:\N\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushScaling.cpp
+  CmdPushTranslation.cpp
+  CmdSetCameraDirection.cpp
+  CmdSetCameraFar.cpp
+  CmdSetCameraFOV.cpp
+D:\N\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdSetCameraNear.cpp
+  CmdSetCameraPosition.cpp
+  CmdSetClipping.cpp
+  CmdSetColor.cpp
+  CmdSetFillMode.cpp
   Generating Code...
-     Creating library D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
-  Pix.vcxproj -> D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
+D:\N\3DGraphicsSpring2024\Pix\Pix\Clipper.cpp(58): warning C4715: 'IsInFront': not all control paths return a value
+  Compiling...
+  CmdSetResolution.cpp
+  CmdSetViewport.cpp
+  CmdShowViewport.cpp
+  CmdVarFloat.cpp
+  CmdAddVertex.cpp
+  CommandDictionary.cpp
+  Graphics.cpp
+  MathHelper.cpp
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(24,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(29,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(70,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(71,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\N\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp(72,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  MatrixStack.cpp
+  PixEditor.cpp
+  PrimitiveManager.cpp
+  Rasterizer.cpp
+  ScriptParser.cpp
+  TextEditor.cpp
+  VariableCache.cpp
+  Viewport.cpp
+  WinMain.cpp
+  Generating Code...
+  LINK : D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe not found or not built by the last incremental link; performing full link
+     Creating library D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
+  Pix.vcxproj -> D:\N\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
