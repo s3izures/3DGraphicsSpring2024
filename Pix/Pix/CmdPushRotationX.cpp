@@ -4,7 +4,7 @@
 
 bool CmdPushRotationX::Execute(const std::vector<std::string>& params)
 {
-	if (params.size() < 3)
+	if (params.size() < 1)
 	{
 		return false;
 	}
