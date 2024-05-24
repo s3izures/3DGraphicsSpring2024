@@ -18,6 +18,18 @@
     <None Include="Scripts\3d_pipeline.pix">
       <Filter>Scripts</Filter>
     </None>
+    <None Include="Scripts\3d_spot_light.pix">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\3d_lighting.pix">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\3d_point_light.pix">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\3d_directional_light.pix">
+      <Filter>Scripts</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp" />

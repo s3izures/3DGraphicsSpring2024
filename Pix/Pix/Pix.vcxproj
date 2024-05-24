@@ -148,7 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="imgui.ini" />
+    <None Include="Scripts\3d_directional_light.pix" />
+    <None Include="Scripts\3d_lighting.pix" />
     <None Include="Scripts\3d_pipeline.pix" />
+    <None Include="Scripts\3d_point_light.pix" />
+    <None Include="Scripts\3d_spot_light.pix" />
     <None Include="Scripts\box.pix" />
     <None Include="Scripts\iconicSprite.pix" />
     <None Include="Scripts\test.pix" />

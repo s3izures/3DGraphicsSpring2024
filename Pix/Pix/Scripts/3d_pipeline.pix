@@ -39,22 +39,23 @@ BeginDraw(Triangle, true)
 SetFillMode(Solid);
 
 // Front
-AddVertex(-1, -1, 1, 0, 1, 0)
-AddVertex(-1, 1, 1, 0, 1, 0)
-AddVertex(1, 1, 1, 0, 1, 0)
-AddVertex(-1, -1, 1, 0, 0, 1)
-AddVertex(1, 1, 1, 0, 0, 1)
-AddVertex(1, -1, 1, 0, 0, 1)
+Vertex(-1, -1, 1, 0, 1, 0)
+Vertex(-1, 1, 1, 0, 1, 0)
+Vertex(1, 1, 1, 0, 1, 0)
+Vertex(-1, -1, 1, 0, 0, 1)
+Vertex(1, 1, 1, 0, 0, 1)
+Vertex(1, -1, 1, 0, 0, 1)
 
 // Right
-AddVertex(1, -1, -1, 1, 0, 1)
-AddVertex(1, 1, -1, 1, 0, 1)
-AddVertex(1, 1, 1, 1, 0, 1)
-AddVertex(1, -1, -1, 1, 1, 0)
-AddVertex(1, 1, 1, 1, 1, 0)
-AddVertex(1, -1, 1, 1, 1, 0)
+Vertex(1, -1, -1, 1, 0, 1)
+Vertex(1, 1, -1, 1, 0, 1)
+Vertex(1, 1, 1, 1, 0, 1)
+Vertex(1, -1, -1, 1, 1, 0)
+Vertex(1, 1, 1, 1, 1, 0)
+Vertex(1, -1, 1, 1, 1, 0)
 
 EndDraw()
+
 
 
 

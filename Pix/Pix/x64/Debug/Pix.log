@@ -1,9 +1,4 @@
-﻿  CmdEnableDepth.cpp
-  CmdSetResolution.cpp
-  DepthBuffer.cpp
-  Graphics.cpp
-  Rasterizer.cpp
-D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(27,56): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-D:\N\TTTT\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(27,48): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+﻿  CmdAddVertex.cpp
+  CommandDictionary.cpp
   Generating Code...
-  Pix.vcxproj -> D:\N\TTTT\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
+  Pix.vcxproj -> D:\N\3DGraphics\Pix\x64\Debug\Pix.exe
