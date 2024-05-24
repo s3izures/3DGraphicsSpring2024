@@ -71,7 +71,26 @@ public:
 		return
 			"AddDirectionalLight()\n"
 			"\n"
-			"- Adds a directional ight";
+			"- Adds a directional light";
+	}
+
+	bool Execute(const std::vector<std::string>& params) override;
+};
+
+class CmdAddPointLight : public Command
+{
+public:
+	const char* GetName() override
+	{
+		return "AddPointLight";
+	}
+
+	const char* GetDescription() override
+	{
+		return
+			"AddPointLight()\n"
+			"\n"
+			"- Adds a point light";
 	}
 
 	bool Execute(const std::vector<std::string>& params) override;

@@ -65,3 +65,8 @@ bool CmdAddDirectionalLight::Execute(const std::vector<std::string>& params)
     LightManager::Get()->AddDirectionalLight({ x, y, z });
     return true;
 }
+
+bool CmdAddPointLight::Execute(const std::vector<std::string>& params)
+{
+    return false;
+}

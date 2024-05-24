@@ -159,6 +159,12 @@
     <ClCompile Include="LightTypes.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMaterial.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -304,6 +310,12 @@
     </ClInclude>
     <ClInclude Include="LightTypes.h">
       <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdMaterial.h">
+      <Filter>Commands</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

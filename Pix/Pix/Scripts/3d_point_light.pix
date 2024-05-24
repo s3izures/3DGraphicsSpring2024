@@ -35,7 +35,7 @@ SetLightSpecular(0.3, 0.3, 0.3)
 AddPointLight($lightPosX, $lightPosY, $lightPosZ, $attenC, $attenL, $attenQ)
 
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 // Ground
 Vertex(-2, 0, -2, 0.0, 0.0, 1.0)
@@ -50,7 +50,7 @@ EndDraw()
 PushTranslation($lightPosX, $lightPosY, $lightPosZ)
 PushScaling(0.1, 0.1, 0.1)
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 Vertex(1, 0, -1, 1, 1, 1)
 Vertex(-1, 0, -1, 1, 1, 1)
@@ -95,7 +95,7 @@ PushRotationY($rotY)
 PushRotationX($rotX)
 PushScaling(0.5, 0.5, 0.5)
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 // Front
 Vertex(1, -1, 1, 0.5, 0, 0.5)

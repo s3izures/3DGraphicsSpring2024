@@ -22,6 +22,12 @@ float $rotX = 45, 0.1
 float $rotY = 45, 0.1
 float $rotZ = 45, 0.1
 
+float $matDiffR = 1, 0.01, 0, 1
+float $matDiffG = 1, 0.01, 0, 1
+float $matDiffB = 1, 0.01, 0, 1
+
+float $shininess = 1, 0.01
+
 SetCameraPosition($camX, $camY, $camZ)
 SetCameraDirection($camDirX, $camDirY, $camDirZ)
 
@@ -29,6 +35,9 @@ SetLightAmbient(0.2, 0.2, 0.2)
 SetLightDiffuse(0.7, 0.7, 0.7)
 SetLightSpecular(0.3, 0.3, 0.3)
 AddDirectionalLight($lightDirX, $lightDirY, $lightDirZ)
+
+SetMaterialDiffuse($matDiffR, $matDiffG, $matDiffB);
+SetMaterialShininess($shininess);
 
 PushTranslation(0, 0, 0)
 PushRotationZ($rotZ)
@@ -145,4 +154,5 @@ Vertex(1, -1, -1, 0.0, 0.5, 0.5)
 Vertex(1, -1, 1, 0.0, 0.5, 0.5)
 
 EndDraw()
+
 

@@ -6,6 +6,7 @@ D:\N\3DGraphics\Pix\Pix\CmdDrawPixel.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdDr
 D:\N\3DGraphics\Pix\Pix\CmdEnableDepth.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdEnableDepth.obj
 D:\N\3DGraphics\Pix\Pix\CmdEndDraw.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdEndDraw.obj
 D:\N\3DGraphics\Pix\Pix\CmdLights.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdLights.obj
+D:\N\3DGraphics\Pix\Pix\CmdMaterial.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdMaterial.obj
 D:\N\3DGraphics\Pix\Pix\CmdPopMatrix.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdPopMatrix.obj
 D:\N\3DGraphics\Pix\Pix\CmdPushRotationX.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdPushRotationX.obj
 D:\N\3DGraphics\Pix\Pix\CmdPushRotationY.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdPushRotationY.obj
@@ -31,6 +32,7 @@ D:\N\3DGraphics\Pix\Pix\DepthBuffer.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\DepthB
 D:\N\3DGraphics\Pix\Pix\Graphics.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Graphics.obj
 D:\N\3DGraphics\Pix\Pix\LightManager.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\LightManager.obj
 D:\N\3DGraphics\Pix\Pix\LightTypes.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\LightTypes.obj
+D:\N\3DGraphics\Pix\Pix\MaterialManager.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\MaterialManager.obj
 D:\N\3DGraphics\Pix\Pix\MathHelper.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\MathHelper.obj
 D:\N\3DGraphics\Pix\Pix\MatrixStack.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\MatrixStack.obj
 D:\N\3DGraphics\Pix\Pix\PixEditor.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\PixEditor.obj

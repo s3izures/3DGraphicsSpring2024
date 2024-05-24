@@ -168,6 +168,7 @@
     <ClCompile Include="CmdEnableDepth.cpp" />
     <ClCompile Include="CmdEndDraw.cpp" />
     <ClCompile Include="CmdLights.cpp" />
+    <ClCompile Include="CmdMaterial.cpp" />
     <ClCompile Include="CmdPopMatrix.cpp" />
     <ClCompile Include="CmdPushRotationX.cpp" />
     <ClCompile Include="CmdPushRotationY.cpp" />
@@ -193,6 +194,7 @@
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="LightManager.cpp" />
     <ClCompile Include="LightTypes.cpp" />
+    <ClCompile Include="MaterialManager.cpp" />
     <ClCompile Include="MathHelper.cpp" />
     <ClCompile Include="MatrixStack.cpp" />
     <ClCompile Include="PixEditor.cpp" />
@@ -218,6 +220,7 @@
     <ClInclude Include="CmdEnableDepth.h" />
     <ClInclude Include="CmdEndDraw.h" />
     <ClInclude Include="CmdLights.h" />
+    <ClInclude Include="CmdMaterial.h" />
     <ClInclude Include="CmdPopMatrix.h" />
     <ClInclude Include="CmdPushRotationX.h" />
     <ClInclude Include="CmdPushRotationY.h" />
@@ -245,6 +248,7 @@
     <ClInclude Include="Light.h" />
     <ClInclude Include="LightManager.h" />
     <ClInclude Include="LightTypes.h" />
+    <ClInclude Include="MaterialManager.h" />
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="Matrix4.h" />
     <ClInclude Include="MatrixStack.h" />
