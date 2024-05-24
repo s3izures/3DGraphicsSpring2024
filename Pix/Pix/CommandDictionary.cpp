@@ -32,10 +32,7 @@
 
 #include "CmdSetCullMode.h"
 
-#include "CmdAddDirectionalLight.h"
-#include "CmdSetLightAmbient.h"
-#include "CmdSetLightDiffuse.h"
-#include "CmdSetLightSpecular.h"
+#include "CmdLights.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()

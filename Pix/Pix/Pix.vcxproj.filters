@@ -150,21 +150,11 @@
     <ClCompile Include="CmdEnableDepth.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="CmdAddDirectionalLight.cpp">
-      <Filter>Commands</Filter>
-    </ClCompile>
-    <ClCompile Include="CmdSetLightAmbient.cpp">
-      <Filter>Commands</Filter>
-    </ClCompile>
-    <ClCompile Include="CmdSetLightDiffuse.cpp">
-      <Filter>Commands</Filter>
-    </ClCompile>
-    <ClCompile Include="CmdSetLightSpecular.cpp">
-      <Filter>Commands</Filter>
-    </ClCompile>
     <ClCompile Include="LightManager.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="LightTypes.cpp" />
+    <ClCompile Include="CmdLights.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -299,24 +289,14 @@
     <ClInclude Include="CmdEnableDepth.h">
       <Filter>Commands</Filter>
     </ClInclude>
-    <ClInclude Include="CmdAddDirectionalLight.h">
-      <Filter>Commands</Filter>
-    </ClInclude>
-    <ClInclude Include="CmdSetLightAmbient.h">
-      <Filter>Commands</Filter>
-    </ClInclude>
-    <ClInclude Include="CmdSetLightDiffuse.h">
-      <Filter>Commands</Filter>
-    </ClInclude>
-    <ClInclude Include="CmdSetLightSpecular.h">
-      <Filter>Commands</Filter>
-    </ClInclude>
     <ClInclude Include="LightManager.h">
       <Filter>Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Light.h">
       <Filter>Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="LightTypes.h" />
+    <ClInclude Include="CmdLights.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Editor">

@@ -6,6 +6,7 @@
 #include "MatrixStack.h"
 #include "PrimitiveManager.h"
 #include "DepthBuffer.h"
+#include "LightManager.h"
 
 void Graphics::NewFrame()
 {
@@ -15,4 +16,5 @@ void Graphics::NewFrame()
 	MatrixStack::Get()->OnNewFrame();
 	PrimitiveManager::Get()->OnNewFrame();
 	DepthBuffer::Get()->OnNewFrame();
+	LightManager::Get()->OnNewFrame();
 }

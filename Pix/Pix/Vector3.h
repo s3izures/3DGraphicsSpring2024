@@ -28,4 +28,6 @@ typedef struct Vector3
 	Vector3& operator*=(const Vector3& res) { x *= res.x, y *= res.y, z *= res.z; return *this; }
 	Vector3& operator/=(const Vector3& res) { x /= res.x, y /= res.y, z/= res.z; return *this; }
 
+	Vector3 operator-()const { return { -x, -y, -z }; }
+
 }Vector3;

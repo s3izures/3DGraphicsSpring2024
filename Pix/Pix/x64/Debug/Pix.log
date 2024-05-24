@@ -1,3 +1,26 @@
-﻿  LightManager.cpp
+﻿  Camera.cpp
+  CmdLights.cpp
+D:\N\3DGraphics\Pix\Pix\Camera.cpp(18,9): warning C4305: '=': truncation from 'double' to 'float'
+  CmdSetColor.cpp
+  Graphics.cpp
+  LightManager.cpp
+  LightTypes.cpp
+D:\N\3DGraphics\Pix\X\Inc\XMath.h(509,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\N\3DGraphics\Pix\X\Inc\XMath.h(509,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\N\3DGraphics\Pix\X\Inc\XMath.h(510,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\N\3DGraphics\Pix\X\Inc\XMath.h(510,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\N\3DGraphics\Pix\Pix\LightTypes.cpp(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Rasterizer.cpp
+D:\N\3DGraphics\Pix\Pix\Rasterizer.cpp(27,56): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\N\3DGraphics\Pix\Pix\Rasterizer.cpp(27,48): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  Generating Code...
      Creating library D:\N\3DGraphics\Pix\x64\Debug\Pix.lib and object D:\N\3DGraphics\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> D:\N\3DGraphics\Pix\x64\Debug\Pix.exe
