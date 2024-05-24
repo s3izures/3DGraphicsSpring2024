@@ -126,7 +126,7 @@ bool PrimitiveManager::EndDraw()
 		Matrix4 matView = Camera::Get()->GetViewMatrix();
 		Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
 		Matrix4 matScreen = GetScreenMatrix();
-		Matrix4 matNDC = matWorld * matView * matProj;
+		Matrix4 matNDC = matView * matProj;
 		LightManager* lm = LightManager::Get();
 
 		for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
