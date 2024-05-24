@@ -4,6 +4,7 @@
 #include "Camera.h"
 #include "MathHelper.h"
 #include "MatrixStack.h"
+#include "LightManager.h"
 
 extern float gResolutionX;
 extern float gResolutionY;
@@ -126,6 +127,7 @@ bool PrimitiveManager::EndDraw()
 		Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
 		Matrix4 matScreen = GetScreenMatrix();
 		Matrix4 matNDC = matWorld * matView * matProj;
+		LightManager* lm = LightManager::Get();
 
 		for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
 		{
@@ -133,6 +135,21 @@ bool PrimitiveManager::EndDraw()
 
 			if (mApplyTransform)
 			{
+				//move position
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					Vector3 worldPos = MathHelper::TransformCoord(triangle[t].pos, matWorld);
+					triangle[t].pos = worldPos;
+				}
+
+				Vector3 dirAB = triangle[1].pos - triangle[0].pos;
+				Vector3 dirAC = triangle[2].pos - triangle[0].pos;
+				Vector3 faceNormal = MathHelper::Normalize(MathHelper::Cross(dirAB, dirAC));
+
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					triangle[t].color += lm->ComputeLightColor(triangle[t].pos, faceNormal);
+				}
 
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
@@ -140,6 +157,7 @@ bool PrimitiveManager::EndDraw()
 					triangle[t].pos = ndcPos;
 				}
 
+				// do culling test
 				if (CullTriangle(mCullMode, triangle))
 				{
 					continue;
