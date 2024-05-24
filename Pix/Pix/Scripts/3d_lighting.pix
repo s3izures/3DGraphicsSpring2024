@@ -36,7 +36,7 @@ PushRotationY($rotY)
 PushRotationX($rotX)
 PushScaling(1, 1, 1)
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 // Front
 Vertex(1, -1, 1, 0.5, 0, 0.5)
@@ -94,7 +94,7 @@ PushRotationY($rotY)
 PushRotationX($rotX)
 PushScaling(0.5, 0.5, 0.5)
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 // Front
 Vertex(1, -1, 1, 0.0, 0.5, 0.5)

@@ -1,5 +1,6 @@
 D:\N\3DGraphics\Pix\Pix\Camera.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Camera.obj
 D:\N\3DGraphics\Pix\Pix\Clipper.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Clipper.obj
+D:\N\3DGraphics\Pix\Pix\CmdAddDirectionalLight.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdAddDirectionalLight.obj
 D:\N\3DGraphics\Pix\Pix\CmdBeginDraw.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 D:\N\3DGraphics\Pix\Pix\CmdDrawRectangle.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdDrawRectangle.obj
 D:\N\3DGraphics\Pix\Pix\CmdDrawPixel.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdDrawPixel.obj
@@ -20,6 +21,8 @@ D:\N\3DGraphics\Pix\Pix\CmdSetClipping.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Cmd
 D:\N\3DGraphics\Pix\Pix\CmdSetColor.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetColor.obj
 D:\N\3DGraphics\Pix\Pix\CmdSetCullMode.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetCullMode.obj
 D:\N\3DGraphics\Pix\Pix\CmdSetFillMode.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetFillMode.obj
+D:\N\3DGraphics\Pix\Pix\CmdSetLightAmbient.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetLightAmbient.obj
+D:\N\3DGraphics\Pix\Pix\CmdSetLightDiffuse.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetLightDiffuse.obj
 D:\N\3DGraphics\Pix\Pix\CmdSetResolution.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetResolution.obj
 D:\N\3DGraphics\Pix\Pix\CmdSetViewport.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetViewport.obj
 D:\N\3DGraphics\Pix\Pix\CmdShowViewport.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdShowViewport.obj
@@ -28,12 +31,14 @@ D:\N\3DGraphics\Pix\Pix\CmdAddVertex.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdAd
 D:\N\3DGraphics\Pix\Pix\CommandDictionary.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CommandDictionary.obj
 D:\N\3DGraphics\Pix\Pix\DepthBuffer.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\DepthBuffer.obj
 D:\N\3DGraphics\Pix\Pix\Graphics.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Graphics.obj
+D:\N\3DGraphics\Pix\Pix\LightManager.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\LightManager.obj
 D:\N\3DGraphics\Pix\Pix\MathHelper.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\MathHelper.obj
 D:\N\3DGraphics\Pix\Pix\MatrixStack.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\MatrixStack.obj
 D:\N\3DGraphics\Pix\Pix\PixEditor.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\PixEditor.obj
 D:\N\3DGraphics\Pix\Pix\PrimitiveManager.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\PrimitiveManager.obj
 D:\N\3DGraphics\Pix\Pix\Rasterizer.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Rasterizer.obj
 D:\N\3DGraphics\Pix\Pix\ScriptParser.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\ScriptParser.obj
+D:\N\3DGraphics\Pix\Pix\CmdSetLightSpecular.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\CmdSetLightSpecular.obj
 D:\N\3DGraphics\Pix\Pix\TextEditor.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\TextEditor.obj
 D:\N\3DGraphics\Pix\Pix\VariableCache.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\VariableCache.obj
 D:\N\3DGraphics\Pix\Pix\Viewport.cpp;D:\N\3DGraphics\Pix\Pix\x64\Debug\Viewport.obj

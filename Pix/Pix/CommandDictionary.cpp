@@ -31,6 +31,11 @@
 #include "CmdEnableDepth.h"
 
 #include "CmdSetCullMode.h"
+
+#include "CmdAddDirectionalLight.h"
+#include "CmdSetLightAmbient.h"
+#include "CmdSetLightDiffuse.h"
+#include "CmdSetLightSpecular.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
@@ -68,6 +73,10 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetCullMode>();
 	RegisterCommand<CmdEnableDepth>();
+	RegisterCommand<CmdAddDirectionalLight>();
+	RegisterCommand<CmdSetLightAmbient>();
+	RegisterCommand<CmdSetLightDiffuse>();
+	RegisterCommand<CmdSetLightSpecular>();
 
 	// Camera commands
 	RegisterCommand<CmdSetCameraPosition>();
