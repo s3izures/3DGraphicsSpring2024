@@ -153,8 +153,12 @@
     <ClCompile Include="LightManager.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="LightTypes.cpp" />
-    <ClCompile Include="CmdLights.cpp" />
+    <ClCompile Include="CmdLights.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="LightTypes.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -295,8 +299,12 @@
     <ClInclude Include="Light.h">
       <Filter>Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="LightTypes.h" />
-    <ClInclude Include="CmdLights.h" />
+    <ClInclude Include="CmdLights.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTypes.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Editor">
