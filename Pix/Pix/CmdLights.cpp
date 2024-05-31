@@ -86,11 +86,11 @@ bool CmdAddPointLight::Execute(const std::vector<std::string>& params)
     {
         constant = vc->GetFloat(params[3]);
     }
-    else if (params.size() > 4)
+    if (params.size() > 4)
     {
         linear = vc->GetFloat(params[4]);
     }
-    else if (params.size() > 5)
+    if (params.size() > 5)
     {
         quadratic = vc->GetFloat(params[5]);
     }
@@ -125,19 +125,19 @@ bool CmdAddSpotLight::Execute(const std::vector<std::string>& params)
     {
         constant = vc->GetFloat(params[6]);
     }
-    else if (params.size() > 7)
+    if (params.size() > 7)
     {
         linear = vc->GetFloat(params[7]);
     }
-    else if (params.size() > 8)
+    if (params.size() > 8)
     {
         quadratic = vc->GetFloat(params[8]);
     }
-    else if (params.size() > 9)
+    if (params.size() > 9)
     {
         angle = vc->GetFloat(params[9]) * X::Math::kDegToRad;
     }
-    else if (params.size() > 10)
+    if (params.size() > 10)
     {
         decay = vc->GetFloat(params[10]);
     }

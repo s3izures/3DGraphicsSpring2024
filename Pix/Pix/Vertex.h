@@ -18,8 +18,8 @@ inline static Vector3 LerpPosition(const Vector3& a, const Vector3& b, const flo
 	pos.z = MathHelper::Lerp(a.z, b.z, t);
 	if (toPixel)
 	{
-		pos.x = floorf((a.x, b.x, t) + 0.5f);
-		pos.y = floorf((a.y, b.y, t) + 0.5f);
+		pos.x = floorf(pos.x + 0.5f);
+		pos.y = floorf(pos.y + 0.5f);
 	}
 	return pos;
 }
@@ -45,11 +45,11 @@ inline static X::Color LerpColor(const X::Color& a, const X::Color& b, const flo
 inline static Vertex LerpVertex(const Vertex& a, const Vertex& b, const float t, bool lerpNorm = false)
 {
 	Vertex vertex;
-	vertex.pos = LerpPosition(a.pos, b.pos, t, false);
+	vertex.pos = LerpPosition(a.pos, b.pos, t);
 	vertex.color = LerpColor(a.color, b.color, t);
 	if (lerpNorm)
 	{
-		vertex.posWorld = LerpPosition(a.posWorld, b.posWorld, t);
+		vertex.posWorld = LerpPosition(a.posWorld, b.posWorld, t, false);
 		vertex.norm = LerpNorm(a.norm, b.norm, t);
 	}
 	return vertex;
