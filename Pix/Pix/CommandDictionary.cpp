@@ -35,6 +35,7 @@
 #include "CmdLights.h"
 #include "CmdMaterial.h"
 #include "CmdModel.h"
+#include "CmdSetShadeMode.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
@@ -73,6 +74,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetCullMode>();
 	RegisterCommand<CmdEnableDepth>();
+	RegisterCommand<CmdSetShadeMode>();
 
 	RegisterCommand<CmdAddDirectionalLight>();
 	RegisterCommand<CmdAddPointLight>();

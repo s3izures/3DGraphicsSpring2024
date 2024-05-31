@@ -140,15 +140,29 @@ bool PrimitiveManager::EndDraw()
 				{
 					Vector3 worldPos = MathHelper::TransformCoord(triangle[t].pos, matWorld);
 					triangle[t].pos = worldPos;
+					triangle[t].posWorld = worldPos;
 				}
 
-				Vector3 dirAB = triangle[1].pos - triangle[0].pos;
-				Vector3 dirAC = triangle[2].pos - triangle[0].pos;
-				Vector3 faceNormal = MathHelper::Normalize(MathHelper::Cross(dirAB, dirAC));
-
-				for (size_t t = 0; t < triangle.size(); ++t)
+				//Ensure triangle has normals
+				if (MathHelper::CheckEqual(MathHelper::MagnitudeSquared(triangle[0].norm), 0.0f))
 				{
-					triangle[t].color += lm->ComputeLightColor(triangle[t].pos, faceNormal);
+					Vector3 dirAB = triangle[1].pos - triangle[0].pos;
+					Vector3 dirAC = triangle[2].pos - triangle[0].pos;
+					Vector3 faceNormal = MathHelper::Normalize(MathHelper::Cross(dirAB, dirAC));
+
+					for (size_t t = 0; t < triangle.size(); ++t)
+					{
+						triangle[t].norm = faceNormal;
+					}
+				}
+
+				//apply vertex lighting
+				if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+				{
+					for (size_t t = 0; t < triangle.size(); ++t)
+					{
+						triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+					}
 				}
 
 				for (size_t t = 0; t < triangle.size(); ++t)
