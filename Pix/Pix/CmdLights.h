@@ -88,9 +88,28 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"AddPointLight()\n"
+			"AddPointLight(x, y, z, <constant>, <linear>, <quadratic>)\n"
 			"\n"
 			"- Adds a point light";
+	}
+
+	bool Execute(const std::vector<std::string>& params) override;
+};
+
+class CmdAddSpotLight : public Command
+{
+public:
+	const char* GetName() override
+	{
+		return "AddSpotLight";
+	}
+
+	const char* GetDescription() override
+	{
+		return
+			"AddSpotLight(x, y, z, x, y, z, <constant>, <linear>, <quadratic>, <angle>, <decay>)\n"
+			"\n"
+			"- Adds a Spot light";
 	}
 
 	bool Execute(const std::vector<std::string>& params) override;

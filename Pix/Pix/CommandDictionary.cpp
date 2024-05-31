@@ -34,6 +34,7 @@
 
 #include "CmdLights.h"
 #include "CmdMaterial.h"
+#include "CmdModel.h"
 #pragma endregion
 
 CommandDictionary* CommandDictionary::Get()
@@ -60,6 +61,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand <CmdPushRotationY>();
 	RegisterCommand <CmdPushRotationZ>();
 	RegisterCommand <CmdPopMatrix>();
+	RegisterCommand<CmdModel>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
@@ -74,6 +76,7 @@ CommandDictionary::CommandDictionary()
 
 	RegisterCommand<CmdAddDirectionalLight>();
 	RegisterCommand<CmdAddPointLight>();
+	RegisterCommand<CmdAddSpotLight>();
 
 	RegisterCommand<CmdSetLightAmbient>();
 	RegisterCommand<CmdSetLightDiffuse>();

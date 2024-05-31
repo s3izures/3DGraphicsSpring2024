@@ -7,3 +7,4 @@ D:\N\3DGraphics\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\Direct
 D:\N\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 D:\N\3DGraphicsSpring2024\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 D:\N\TTTT\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib

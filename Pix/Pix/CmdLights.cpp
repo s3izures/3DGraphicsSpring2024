@@ -68,5 +68,80 @@ bool CmdAddDirectionalLight::Execute(const std::vector<std::string>& params)
 
 bool CmdAddPointLight::Execute(const std::vector<std::string>& params)
 {
-    return false;
+    if (params.size() < 3)
+    {
+        return false;
+    }
+
+    VariableCache* vc = VariableCache::Get();
+    float x = vc->GetFloat(params[0]);
+    float y = vc->GetFloat(params[1]);
+    float z = vc->GetFloat(params[2]);
+
+    float constant = 1.0f;
+    float linear = 0.0f;
+    float quadratic = 0.0f;
+
+    if (params.size() > 3)
+    {
+        constant = vc->GetFloat(params[3]);
+    }
+    else if (params.size() > 4)
+    {
+        linear = vc->GetFloat(params[4]);
+    }
+    else if (params.size() > 5)
+    {
+        quadratic = vc->GetFloat(params[5]);
+    }
+
+    LightManager::Get()->AddPointLight({ x, y, z }, constant, linear, quadratic);
+    return true;
+}
+
+bool CmdAddSpotLight::Execute(const std::vector<std::string>& params)
+{
+    if (params.size() < 6)
+    {
+        return false;
+    }
+
+    VariableCache* vc = VariableCache::Get();
+    float posx = vc->GetFloat(params[0]);
+    float posy = vc->GetFloat(params[1]);
+    float posz = vc->GetFloat(params[2]);
+
+    float dirx = vc->GetFloat(params[3]);
+    float diry = vc->GetFloat(params[4]);
+    float dirz = vc->GetFloat(params[5]);
+
+    float constant = 1.0f;
+    float linear = 0.0f;
+    float quadratic = 0.0f;
+    float angle = 0.0f;
+    float decay = 0.0f;
+
+    if (params.size() > 6)
+    {
+        constant = vc->GetFloat(params[6]);
+    }
+    else if (params.size() > 7)
+    {
+        linear = vc->GetFloat(params[7]);
+    }
+    else if (params.size() > 8)
+    {
+        quadratic = vc->GetFloat(params[8]);
+    }
+    else if (params.size() > 9)
+    {
+        angle = vc->GetFloat(params[9]) * X::Math::kDegToRad;
+    }
+    else if (params.size() > 10)
+    {
+        decay = vc->GetFloat(params[10]);
+    }
+
+    LightManager::Get()->AddSpotLight({ posx, posy, posz }, { dirx, diry,dirz }, constant, linear, quadratic, angle, decay);
+    return true;
 }
