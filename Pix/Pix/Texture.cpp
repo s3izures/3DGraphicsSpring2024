@@ -36,6 +36,28 @@ namespace
         return newStride;
     }
 #pragma pack(pop)
+
+    X::Color GetBilinearFilterPixelColor(const Texture& tex, float u, float v)
+    {
+        float uTex = u * static_cast<float>(tex.GetWidth());
+        float vTex = v * static_cast<float>(tex.GetHeight());
+
+        int uInt = static_cast<int>(uTex);
+        int vInt = static_cast<int>(vTex);
+
+        float uRatio = uTex - static_cast<float>(uInt);
+        float vRatio = vTex - static_cast<float>(vInt);
+
+        float uOpp = 1.0f - uRatio;
+        float vOpp = 1.0f - vRatio;
+
+        X::Color a = tex.GetPixel(uInt, vInt) * uOpp;
+        X::Color b = tex.GetPixel(uInt + 1, vInt) * uRatio;
+        X::Color c = tex.GetPixel(uInt, vInt + 1) * uOpp;
+        X::Color d = tex.GetPixel(uInt + 1, vInt + 1) * uRatio;
+
+        return ((a + b) * vOpp + (c + d) * vRatio);
+    }
 }
 
 void Texture::Load(const std::string& fileName)
@@ -91,6 +113,64 @@ const std::string& Texture:: GetFileName() const
 }
 X::Color Texture::GetPixel(float u, float v, AddressMode mode, bool filter) const
 {
+    switch (mode)
+    {
+    case AddressMode::Clamp:
+    {
+        u = std::clamp(u, 0.0f, 1.0f);
+        v = std::clamp(v, 0.0f, 1.0f);
+    }
+    break;
+    case AddressMode::Border:
+    {
+        if (u > 1.0f || u < 0.0f || v > 1.0f || v < 0.0f)
+        {
+            return X::Colors::HotPink;
+        }
+    }
+    break;
+    case AddressMode::Wrap:
+    {
+        while (u > 1.0f)
+        {
+            u -= 1.0f;
+        }
+        while (u < 0.0f)
+        {
+            u += 1.0f;
+        }
+    }
+    break;
+    case AddressMode::Mirror:
+    {
+        while (u > 2.0f)
+        {
+            u -= 2.0f;
+        }
+        while (u < 2.0f)
+        {
+            u += 2.0f;
+        }
+        u = (u > 1.0f) ? 2.0f - 1.0f : u;
+
+        while (v > 2.0f)
+        {
+            v -= 2.0f;
+        }
+        while (v < 2.0f)
+        {
+            v += 2.0f;
+        }
+        v = (v > 1.0f) ? 2.0f - 1.0f : v;
+    }
+    break;
+    }
+
+    if (filter)
+    {
+        return GetBilinearFilterPixelColor(*this, u, v);
+    }
+
 	int uIn = static_cast<int>(u * (mWidth - 1));
 	int vIn = static_cast<int>(v * (mHeight - 1));
 	return GetPixel(uIn, vIn);

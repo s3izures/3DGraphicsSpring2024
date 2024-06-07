@@ -1,3 +1,6 @@
-﻿  TextureManager.cpp
+﻿  CmdSetAddressMode.cpp
+  CommandDictionary.cpp
+  Texture.cpp
+  Generating Code...
      Creating library C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

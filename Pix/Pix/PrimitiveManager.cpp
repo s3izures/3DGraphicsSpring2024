@@ -61,11 +61,17 @@ PrimitiveManager::~PrimitiveManager()
 void PrimitiveManager::OnNewFrame()
 {
 	mCullMode = CullMode::None;
+	mCorrectUV = false;
 }
 
 void PrimitiveManager::SetCullMode(CullMode mode)
 {
 	mCullMode = mode;
+}
+
+void PrimitiveManager::SetCorrectUV(bool correctUV)
+{
+	mCorrectUV = correctUV;
 }
 
 PrimitiveManager* PrimitiveManager::Get()
@@ -167,6 +173,14 @@ bool PrimitiveManager::EndDraw()
 						}
 					}
 				}
+				else if (mCorrectUV)
+					for (size_t t = 0; t < triangle.size(); ++t)
+					{
+						Vector3 viewPos = MathHelper::TransformCoord(triangle[t].pos, matView);
+						triangle[t].color.x /= viewPos.z;
+						triangle[t].color.y /= viewPos.z;
+						triangle[t].color.w = 1.0f / viewPos.z;
+					}
 
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{

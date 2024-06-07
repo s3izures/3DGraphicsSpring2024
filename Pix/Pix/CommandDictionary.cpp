@@ -31,6 +31,8 @@
 #include "CmdEnableDepth.h"
 
 #include "CmdSetCullMode.h"
+#include "CmdSetCorrectUV.h"
+#include "CmdSetAddressMode.h"
 
 #include "CmdLights.h"
 #include "CmdMaterial.h"
@@ -78,6 +80,8 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetShadeMode>();
 
 	RegisterCommand<CmdSetTexture>();
+	RegisterCommand<CmdSetCorrectUV>();
+	RegisterCommand<CmdSetAddressMode>();
 
 	RegisterCommand<CmdAddDirectionalLight>();
 	RegisterCommand<CmdAddPointLight>();

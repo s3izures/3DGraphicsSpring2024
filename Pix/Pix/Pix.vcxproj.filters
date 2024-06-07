@@ -192,6 +192,12 @@
     <ClCompile Include="CmdSetTexture.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
+    <ClCompile Include="CmdSetCorrectUV.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSetAddressMode.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -363,6 +369,12 @@
       <Filter>Graphics</Filter>
     </ClInclude>
     <ClInclude Include="CmdSetTexture.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSetCorrectUV.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSetAddressMode.h">
       <Filter>Commands</Filter>
     </ClInclude>
   </ItemGroup>

@@ -14,6 +14,7 @@ C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushRotatio
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushScaling.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushScaling.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushTranslation.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushTranslation.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetAddressMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetAddressMode.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraDirection.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFar.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFOV.obj
@@ -21,6 +22,7 @@ C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraNe
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraPosition.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetClipping.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetClipping.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetColor.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetColor.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCorrectUV.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCorrectUV.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCullMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCullMode.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetFillMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetResolution.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetResolution.obj

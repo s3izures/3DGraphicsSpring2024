@@ -34,6 +34,7 @@ PushRotationY($rotY)
 PushRotationX($rotX)
 
 SetCorrectUV($correctUV)
+SetAddressMode(Mirror)
 
 BeginDraw(Triangle, true)
 
@@ -45,4 +46,5 @@ Vertex(1, 1, 0, 1, 0, -1)
 Vertex(1, -1, 0, 1, 1, -1)
 
 EndDraw()
+
 
