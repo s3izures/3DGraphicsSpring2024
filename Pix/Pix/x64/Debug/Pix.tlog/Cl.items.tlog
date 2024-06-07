@@ -25,6 +25,7 @@ C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCullMode
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetFillMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetResolution.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetResolution.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetShadeMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetShadeMode.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetTexture.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetTexture.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetViewport.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdShowViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdShowViewport.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdVarFloat.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarFloat.obj
@@ -44,6 +45,8 @@ C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\PrimitiveManag
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Rasterizer.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\ScriptParser.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\ScriptParser.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\TextEditor.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextEditor.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Texture.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Texture.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\TextureManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextureManager.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\VariableCache.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\VariableCache.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Viewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Viewport.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\WinMain.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\WinMain.obj

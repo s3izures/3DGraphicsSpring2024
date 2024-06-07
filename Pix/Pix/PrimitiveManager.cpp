@@ -156,12 +156,15 @@ bool PrimitiveManager::EndDraw()
 					}
 				}
 
-				//apply vertex lighting
-				if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+				if (triangle[0].color.z >= 0.0f)
 				{
-					for (size_t t = 0; t < triangle.size(); ++t)
+					//apply vertex lighting
+					if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
 					{
-						triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+						for (size_t t = 0; t < triangle.size(); ++t)
+						{
+							triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+						}
 					}
 				}
 

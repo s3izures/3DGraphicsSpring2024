@@ -30,6 +30,12 @@
     <None Include="Scripts\3d_directional_light.pix">
       <Filter>Scripts</Filter>
     </None>
+    <None Include="Scripts\3d_texturing_cube.pix">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\3d_texturing_perspective.pix">
+      <Filter>Scripts</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp" />
@@ -175,6 +181,15 @@
       <Filter>Commands</Filter>
     </ClCompile>
     <ClCompile Include="CmdSetShadeMode.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSetTexture.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
   </ItemGroup>
@@ -339,6 +354,15 @@
       <Filter>Commands</Filter>
     </ClInclude>
     <ClInclude Include="CmdSetShadeMode.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSetTexture.h">
       <Filter>Commands</Filter>
     </ClInclude>
   </ItemGroup>
