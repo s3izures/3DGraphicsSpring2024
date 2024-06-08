@@ -56,7 +56,7 @@ namespace
         X::Color c = tex.GetPixel(uInt, vInt + 1) * uOpp;
         X::Color d = tex.GetPixel(uInt + 1, vInt + 1) * uRatio;
 
-        return ((a + b) * vOpp + (c + d) * vRatio);
+        return (a + b) * vOpp + (c + d) * vRatio;
     }
 }
 
@@ -115,55 +115,63 @@ X::Color Texture::GetPixel(float u, float v, AddressMode mode, bool filter) cons
 {
     switch (mode)
     {
-    case AddressMode::Clamp:
-    {
-        u = std::clamp(u, 0.0f, 1.0f);
-        v = std::clamp(v, 0.0f, 1.0f);
-    }
-    break;
-    case AddressMode::Border:
-    {
-        if (u > 1.0f || u < 0.0f || v > 1.0f || v < 0.0f)
+        case AddressMode::Clamp:
         {
-            return X::Colors::HotPink;
+            u = std::clamp(u, 0.0f, 1.0f);
+            v = std::clamp(v, 0.0f, 1.0f);
         }
-    }
-    break;
-    case AddressMode::Wrap:
-    {
-        while (u > 1.0f)
+        break;
+        case AddressMode::Border:
         {
-            u -= 1.0f;
+            if (u > 1.0f || u < 0.0f || v > 1.0f || v < 0.0f)
+            {
+                return X::Colors::Magenta;
+            }
         }
-        while (u < 0.0f)
+        break;
+        case AddressMode::Wrap:
         {
-            u += 1.0f;
+            while (u > 1.0f)
+            {
+                u -= 1.0f;
+            }
+            while (u < 0.0f)
+            {
+                u += 1.0f;
+            }
+            while (v > 1.0f)
+            {
+                v -= 1.0f;
+            }
+            while (v < 0.0f)
+            {
+                v += 1.0f;
+            }
         }
-    }
-    break;
-    case AddressMode::Mirror:
-    {
-        while (u > 2.0f)
+        break;
+        case AddressMode::Mirror:
         {
-            u -= 2.0f;
-        }
-        while (u < 2.0f)
-        {
-            u += 2.0f;
-        }
-        u = (u > 1.0f) ? 2.0f - 1.0f : u;
+            while (u > 2.0f)
+            {
+                u -= 2.0f;
+            }
+            while (u < 2.0f)
+            {
+                u += 2.0f;
+            }
+            u = (u > 1.0f) ? 2.0f - 1.0f : u;
 
-        while (v > 2.0f)
-        {
-            v -= 2.0f;
+            while (v > 2.0f)
+            {
+                v -= 2.0f;
+            }
+            while (v < 2.0f)
+            {
+                v += 2.0f;
+            }
+            v = (v > 1.0f) ? 2.0f - 1.0f : v;
         }
-        while (v < 2.0f)
-        {
-            v += 2.0f;
-        }
-        v = (v > 1.0f) ? 2.0f - 1.0f : v;
-    }
-    break;
+        break;
     }
 
     if (filter)

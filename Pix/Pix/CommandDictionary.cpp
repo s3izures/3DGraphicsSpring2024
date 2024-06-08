@@ -33,6 +33,7 @@
 #include "CmdSetCullMode.h"
 #include "CmdSetCorrectUV.h"
 #include "CmdSetAddressMode.h"
+#include "CmdSetUseFilter.h"
 
 #include "CmdLights.h"
 #include "CmdMaterial.h"
@@ -82,6 +83,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetTexture>();
 	RegisterCommand<CmdSetCorrectUV>();
 	RegisterCommand<CmdSetAddressMode>();
+	RegisterCommand<CmdSetUseFilter>();
 
 	RegisterCommand<CmdAddDirectionalLight>();
 	RegisterCommand<CmdAddPointLight>();

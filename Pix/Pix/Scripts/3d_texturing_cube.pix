@@ -31,7 +31,7 @@ PushScaling(1, 1, 1)
 //SetTexture(../Images/sponge_bob.bmp)
 SetTexture(../Images/crate.bmp)
 
-BeginDraw(triangle, true)
+BeginDraw(Triangle, true)
 
 // Front
 Vertex(1, -1, 1, 0, 1, -1)

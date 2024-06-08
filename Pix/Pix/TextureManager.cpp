@@ -33,7 +33,7 @@ void TextureManager::SetAddressMode(AddressMode mode)
 {
 	mAddressMode = mode;
 }
-void TextureManager::SetUseFilter(bool useFilter)
+void TextureManager::CmdSetUseFilter(bool useFilter)
 {
 	mUseFilter = useFilter;
 }

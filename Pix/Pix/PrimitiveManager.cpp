@@ -162,6 +162,7 @@ bool PrimitiveManager::EndDraw()
 					}
 				}
 
+				//If not UV add light
 				if (triangle[0].color.z >= 0.0f)
 				{
 					//apply vertex lighting
@@ -174,6 +175,7 @@ bool PrimitiveManager::EndDraw()
 					}
 				}
 				else if (mCorrectUV)
+				{
 					for (size_t t = 0; t < triangle.size(); ++t)
 					{
 						Vector3 viewPos = MathHelper::TransformCoord(triangle[t].pos, matView);
@@ -181,6 +183,7 @@ bool PrimitiveManager::EndDraw()
 						triangle[t].color.y /= viewPos.z;
 						triangle[t].color.w = 1.0f / viewPos.z;
 					}
+				}
 
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
