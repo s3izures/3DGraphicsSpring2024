@@ -8,6 +8,8 @@
 #include "CmdSetClipping.h"
 
 #include "CmdVarFloat.h"
+#include "CmdVarInt.h"
+#include "CmdVarBool.h"
 
 #include "CmdDrawPixel.h"
 #include "CmdDrawRectangle.h"
@@ -60,6 +62,8 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand<CmdVarInt>();
+	RegisterCommand<CmdVarBool>();
 	RegisterCommand <CmdPushTranslation>();
 	RegisterCommand <CmdPushScaling>();
 	RegisterCommand <CmdPushRotationX>();

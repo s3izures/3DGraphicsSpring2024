@@ -33,8 +33,7 @@ PushRotationZ($rotZ)
 PushRotationY($rotY)
 PushRotationX($rotX)
 
-//SetCorrectUV($correctUV)
-SetCorrectUV(true)
+SetCorrectUV($correctUV)
 SetAddressMode(wrap)
 SetUseFilter(true);
 
@@ -48,6 +47,7 @@ Vertex(1, 1, 0, 1, 0, -1)
 Vertex(1, -1, 0, 1, 1, -1)
 
 EndDraw()
+
 
 
 

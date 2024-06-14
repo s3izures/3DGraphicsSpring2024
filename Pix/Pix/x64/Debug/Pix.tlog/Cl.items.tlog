@@ -30,8 +30,10 @@ C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetShadeMod
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetTexture.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetTexture.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetViewport.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdShowViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdShowViewport.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdVarBool.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarBool.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdVarFloat.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarFloat.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdAddVertex.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdAddVertex.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdVarInt.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarInt.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CommandDictionary.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CommandDictionary.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\DepthBuffer.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\DepthBuffer.obj
 C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Graphics.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Graphics.obj
