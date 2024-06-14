@@ -33,20 +33,25 @@ PushRotationZ($rotZ)
 PushRotationY($rotY)
 PushRotationX($rotX)
 
-SetCorrectUV($correctUV)
-SetAddressMode(border)
+//SetCorrectUV($correctUV)
+SetCorrectUV(true)
+SetAddressMode(wrap)
 SetUseFilter(true);
 
 BeginDraw(Triangle, true)
 
-Vertex(-1, -1, 0, 0, 3, -1)
+Vertex(-1, -1, 0, 0, 1, -1)
 Vertex(-1, 1, 0, 0, 0, -1)
-Vertex(1, 1, 0, 3, 0, -1)
-Vertex(-1, -1, 0, 0, 3, -1)
-Vertex(1, 1, 0, 3, 0, -1)
-Vertex(1, -1, 0, 3, 1, -1)
+Vertex(1, 1, 0, 1, 0, -1)
+Vertex(-1, -1, 0, 0, 1, -1)
+Vertex(1, 1, 0, 1, 0, -1)
+Vertex(1, -1, 0, 1, 1, -1)
 
 EndDraw()
+
+
+
+
 
 
 

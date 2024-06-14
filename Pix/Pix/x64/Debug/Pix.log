@@ -1,12 +1,2 @@
 ﻿  CmdSetAddressMode.cpp
-  CmdSetTexture.cpp
-  CommandDictionary.cpp
-  Rasterizer.cpp
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(39,56): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp(39,48): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-  CmdSetUseFilter.cpp
-  Texture.cpp
-  TextureManager.cpp
-  Generating Code...
-     Creating library D:\School\Spring 2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.lib and object D:\School\Spring 2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exp
-  Pix.vcxproj -> D:\School\Spring 2024\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe
+  Pix.vcxproj -> C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\x64\Debug\Pix.exe

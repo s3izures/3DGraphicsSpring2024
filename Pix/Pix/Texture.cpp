@@ -155,21 +155,21 @@ X::Color Texture::GetPixel(float u, float v, AddressMode mode, bool filter) cons
             {
                 u -= 2.0f;
             }
-            while (u < 2.0f)
+            while (u < 0.0f)
             {
                 u += 2.0f;
             }
-            u = (u > 1.0f) ? 2.0f - 1.0f : u;
+            u = (u > 1.0f) ? 2.0f - u : u;
 
             while (v > 2.0f)
             {
                 v -= 2.0f;
             }
-            while (v < 2.0f)
+            while (v < 0.0f)
             {
                 v += 2.0f;
             }
-            v = (v > 1.0f) ? 2.0f - 1.0f : v;
+            v = (v > 1.0f) ? 2.0f - v : v;
         }
         break;
     }

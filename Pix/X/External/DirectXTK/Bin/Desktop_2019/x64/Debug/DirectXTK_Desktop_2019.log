@@ -17,7 +17,7 @@
   EnvironmentMapEffect.cpp
   GamePad.cpp
   GeometricPrimitive.cpp
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Src\GamePad.cpp(22,21): warning C5264: '`anonymous-namespace'::c_XboxOneThumbDeadZone': 'const' variable is not used
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Src\GamePad.cpp(22,21): warning C5264: '`anonymous-namespace'::c_XboxOneThumbDeadZone': 'const' variable is not used
   (compiling source file '/Src/GamePad.cpp')
   
   Geometry.cpp
@@ -43,4 +43,4 @@ D:\School\Spring 2024\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Src\GamePad.
   VertexTypes.cpp
   WICTextureLoader.cpp
   Generating Code...
-  DirectXTK_Desktop_2019.vcxproj -> D:\School\Spring 2024\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+  DirectXTK_Desktop_2019.vcxproj -> C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

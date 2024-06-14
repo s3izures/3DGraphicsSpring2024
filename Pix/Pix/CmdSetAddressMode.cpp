@@ -17,7 +17,7 @@ bool CmdSetAddressMode::Execute(const std::vector<std::string>& params)
     {
         addressMode = AddressMode::Wrap;
     }
-    if (params[0] == "mirror")
+    else if (params[0] == "mirror")
     {
         addressMode = AddressMode::Mirror;
     }

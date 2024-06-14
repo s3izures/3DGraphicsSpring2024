@@ -1,55 +1,55 @@
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Camera.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Camera.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Clipper.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Clipper.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdBeginDraw.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdBeginDraw.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdDrawRectangle.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawRectangle.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdDrawPixel.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawPixel.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdEnableDepth.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEnableDepth.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdEndDraw.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEndDraw.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdLights.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdLights.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdMaterial.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdMaterial.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdModel.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdModel.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPopMatrix.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPopMatrix.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationX.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationY.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationY.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPushScaling.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushScaling.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdPushTranslation.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushTranslation.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetAddressMode.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetAddressMode.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraDirection.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFar.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFOV.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraNear.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraNear.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraPosition.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetClipping.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetClipping.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetColor.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetColor.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCorrectUV.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCorrectUV.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetCullMode.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCullMode.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetFillMode.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetFillMode.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetResolution.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetResolution.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetShadeMode.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetShadeMode.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetTexture.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetTexture.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetViewport.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetViewport.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdShowViewport.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdShowViewport.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdVarFloat.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarFloat.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdAddVertex.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdAddVertex.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CommandDictionary.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CommandDictionary.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\DepthBuffer.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\DepthBuffer.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Graphics.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Graphics.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\LightManager.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\LightManager.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\LightTypes.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\LightTypes.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\MaterialManager.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MaterialManager.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MathHelper.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\MatrixStack.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MatrixStack.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Model.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Model.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\ModelManager.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\ModelManager.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\PixEditor.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PixEditor.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\PrimitiveManager.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PrimitiveManager.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Rasterizer.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\ScriptParser.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\ScriptParser.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\CmdSetUseFilter.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetUseFilter.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\TextEditor.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextEditor.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Texture.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Texture.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\TextureManager.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextureManager.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\VariableCache.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\VariableCache.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\Viewport.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Viewport.obj
-D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\WinMain.cpp;D:\School\Spring 2024\3DGraphicsSpring2024\Pix\Pix\x64\Debug\WinMain.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Camera.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Camera.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Clipper.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Clipper.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdBeginDraw.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdBeginDraw.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdDrawRectangle.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawRectangle.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdDrawPixel.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdEnableDepth.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEnableDepth.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdEndDraw.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdEndDraw.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdLights.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdLights.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdMaterial.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdMaterial.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdModel.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdModel.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPopMatrix.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPopMatrix.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationX.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationX.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationY.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationY.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushRotationZ.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushScaling.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushScaling.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdPushTranslation.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdPushTranslation.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetAddressMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetAddressMode.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraDirection.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFar.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraFOV.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraFOV.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraNear.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraNear.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCameraPosition.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetClipping.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetClipping.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetColor.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetColor.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCorrectUV.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCorrectUV.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetCullMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetCullMode.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetFillMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetFillMode.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetResolution.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetResolution.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetShadeMode.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetShadeMode.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetTexture.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetTexture.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetViewport.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdShowViewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdShowViewport.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdVarFloat.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdVarFloat.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdAddVertex.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdAddVertex.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CommandDictionary.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CommandDictionary.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\DepthBuffer.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\DepthBuffer.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Graphics.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Graphics.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\LightManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\LightManager.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\LightTypes.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\LightTypes.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\MaterialManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MaterialManager.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\MathHelper.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MathHelper.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\MatrixStack.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\MatrixStack.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Model.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Model.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\ModelManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\ModelManager.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\PixEditor.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PixEditor.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\PrimitiveManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\PrimitiveManager.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Rasterizer.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Rasterizer.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\ScriptParser.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\ScriptParser.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\CmdSetUseFilter.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\CmdSetUseFilter.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\TextEditor.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextEditor.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Texture.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Texture.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\TextureManager.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\TextureManager.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\VariableCache.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\VariableCache.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\Viewport.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\Viewport.obj
+C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\WinMain.cpp;C:\Users\lcv2312653\Documents\GitHub\3DGraphicsSpring2024\Pix\Pix\x64\Debug\WinMain.obj
