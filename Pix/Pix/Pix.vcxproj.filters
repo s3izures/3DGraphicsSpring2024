@@ -201,8 +201,12 @@
     <ClCompile Include="CmdSetUseFilter.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="CmdVarInt.cpp" />
-    <ClCompile Include="CmdVarBool.cpp" />
+    <ClCompile Include="CmdVarBool.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdVarInt.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextEditor.h">
@@ -385,8 +389,12 @@
     <ClInclude Include="CmdSetUseFilter.h">
       <Filter>Commands</Filter>
     </ClInclude>
-    <ClInclude Include="CmdVarInt.h" />
-    <ClInclude Include="CmdVarBool.h" />
+    <ClInclude Include="CmdVarInt.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdVarBool.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Editor">
